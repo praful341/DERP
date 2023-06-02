@@ -1,0 +1,44 @@
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>I8,A
+ZN
+q304
+O
+JF
+KIZZQ0
+KI9+0.0
+ZT
+Q120,25
+Arglabel 150 31
+exit
+KI80
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>N
+B275,106,2,1,2,4,45,N,"3075745"
+A275,55,2,3,1,1,N,"3075745"
+A275,29,2,2,1,1,N,"12-May-2023"
+A93,104,2,1,1,1,N,"K-113-114-C"
+A93,85,2,3,1,1,N,".028"
+A93,56,2,3,1,1,N,"1"
+A125,29,2,3,1,1,N,"175-1536"
+P1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>I8,A
+ZN
+q304
+O
+JF
+KIZZQ0
+KI9+0.0
+ZT
+Q120,25
+Arglabel 150 31
+exit
+KI80
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>N
+B275,106,2,1,2,4,45,N,"3075746"
+A275,55,2,3,1,1,N,"3075746"
+A275,29,2,2,1,1,N,"12-May-2023"
+A93,104,2,1,1,1,N,"K-113-114-C"
+A93,85,2,3,1,1,N,".016"
+A93,56,2,3,1,1,N,"1"
+A125,29,2,3,1,1,N,"175-1537"
+P1
+<xpml></page></xpml><xpml><end/></xpml>

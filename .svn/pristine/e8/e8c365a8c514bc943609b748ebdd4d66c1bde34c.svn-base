@@ -1,0 +1,13 @@
+[LOGIN]
+ServerHostName=PRAFUL-PC
+DBName=DERP
+ServerUserName=sa
+ServerPassWord=admin@123
+
+<!-[LOGIN]
+ServerHostName=sql7001.site4now.net
+DBName=DB_A4B382_DERP
+ServerUserName=DB_A4B382_DERP_admin
+ServerPassWord=Admin@123-->
+
+ServerPath=\\192.168.1.111\derpsharing

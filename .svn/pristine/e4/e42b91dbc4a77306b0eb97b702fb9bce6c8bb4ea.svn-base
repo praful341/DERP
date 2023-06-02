@@ -1,0 +1,23 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DERP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UPLOADED_FILENAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FilePath</Value>
+    </Setting>
+    <Setting Name="ORIGINAL_FILENAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FileName</Value>
+    </Setting>
+    <Setting Name="UPLOAD_BY_USERNAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Size</Value>
+    </Setting>
+    <Setting Name="DERPConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=PRAFUL-PC;Initial Catalog=DERP;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=PRAFUL-PC;Initial Catalog=DERP;Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

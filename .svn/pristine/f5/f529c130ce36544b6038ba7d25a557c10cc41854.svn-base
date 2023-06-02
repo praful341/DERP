@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSLotID" targetNamespace="http://tempuri.org/DSLotID.xsd" xmlns:mstns="http://tempuri.org/DSLotID.xsd" xmlns="http://tempuri.org/DSLotID.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DERPConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DERPConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DERP.Properties.Settings.GlobalReference.Default.DERPConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSLotID" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSLotID" msprop:Generator_UserDSName="DSLotID">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TRN_LotID_Print_GetData" msprop:Generator_TableClassName="TRN_LotID_Print_GetDataDataTable" msprop:Generator_TableVarName="tableTRN_LotID_Print_GetData" msprop:Generator_TablePropName="TRN_LotID_Print_GetData" msprop:Generator_RowDeletingName="TRN_LotID_Print_GetDataRowDeleting" msprop:Generator_RowChangingName="TRN_LotID_Print_GetDataRowChanging" msprop:Generator_RowEvHandlerName="TRN_LotID_Print_GetDataRowChangeEventHandler" msprop:Generator_RowDeletedName="TRN_LotID_Print_GetDataRowDeleted" msprop:Generator_UserTableName="TRN_LotID_Print_GetData" msprop:Generator_RowChangedName="TRN_LotID_Print_GetDataRowChanged" msprop:Generator_RowEvArgName="TRN_LotID_Print_GetDataRowChangeEvent" msprop:Generator_RowClassName="TRN_LotID_Print_GetDataRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lot_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnlot_id" msprop:Generator_ColumnPropNameInRow="lot_id" msprop:Generator_ColumnPropNameInTable="lot_idColumn" msprop:Generator_UserColumnName="lot_id" type="xs:long" />
+              <xs:element name="rough_cut_id" msprop:Generator_ColumnVarNameInTable="columnrough_cut_id" msprop:Generator_ColumnPropNameInRow="rough_cut_id" msprop:Generator_ColumnPropNameInTable="rough_cut_idColumn" msprop:Generator_UserColumnName="rough_cut_id" type="xs:long" minOccurs="0" />
+              <xs:element name="rough_cut_no" msprop:Generator_ColumnVarNameInTable="columnrough_cut_no" msprop:Generator_ColumnPropNameInRow="rough_cut_no" msprop:Generator_ColumnPropNameInTable="rough_cut_noColumn" msprop:Generator_UserColumnName="rough_cut_no" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kapan_id" msprop:Generator_ColumnVarNameInTable="columnkapan_id" msprop:Generator_ColumnPropNameInRow="kapan_id" msprop:Generator_ColumnPropNameInTable="kapan_idColumn" msprop:Generator_UserColumnName="kapan_id" type="xs:long" minOccurs="0" />
+              <xs:element name="balance_pcs" msprop:Generator_ColumnVarNameInTable="columnbalance_pcs" msprop:Generator_ColumnPropNameInRow="balance_pcs" msprop:Generator_ColumnPropNameInTable="balance_pcsColumn" msprop:Generator_UserColumnName="balance_pcs" type="xs:int" minOccurs="0" />
+              <xs:element name="balance_carat" msprop:Generator_ColumnVarNameInTable="columnbalance_carat" msprop:Generator_ColumnPropNameInRow="balance_carat" msprop:Generator_ColumnPropNameInTable="balance_caratColumn" msprop:Generator_UserColumnName="balance_carat" type="xs:decimal" minOccurs="0" />
+              <xs:element name="rr_pcs" msprop:Generator_ColumnVarNameInTable="columnrr_pcs" msprop:Generator_ColumnPropNameInRow="rr_pcs" msprop:Generator_ColumnPropNameInTable="rr_pcsColumn" msprop:Generator_UserColumnName="rr_pcs" type="xs:int" minOccurs="0" />
+              <xs:element name="rr_carat" msprop:Generator_ColumnVarNameInTable="columnrr_carat" msprop:Generator_ColumnPropNameInRow="rr_carat" msprop:Generator_ColumnPropNameInTable="rr_caratColumn" msprop:Generator_UserColumnName="rr_carat" type="xs:decimal" minOccurs="0" />
+              <xs:element name="manager_id" msprop:Generator_ColumnVarNameInTable="columnmanager_id" msprop:Generator_ColumnPropNameInRow="manager_id" msprop:Generator_ColumnPropNameInTable="manager_idColumn" msprop:Generator_UserColumnName="manager_id" type="xs:long" minOccurs="0" />
+              <xs:element name="department_id" msprop:Generator_ColumnVarNameInTable="columndepartment_id" msprop:Generator_ColumnPropNameInRow="department_id" msprop:Generator_ColumnPropNameInTable="department_idColumn" msprop:Generator_UserColumnName="department_id" type="xs:int" minOccurs="0" />
+              <xs:element name="chipyo_prd_id" msprop:Generator_ColumnVarNameInTable="columnchipyo_prd_id" msprop:Generator_ColumnPropNameInRow="chipyo_prd_id" msprop:Generator_ColumnPropNameInTable="chipyo_prd_idColumn" msprop:Generator_UserColumnName="chipyo_prd_id" type="xs:long" minOccurs="0" />
+              <xs:element name="sawable_prd_id" msprop:Generator_ColumnVarNameInTable="columnsawable_prd_id" msprop:Generator_ColumnPropNameInRow="sawable_prd_id" msprop:Generator_ColumnPropNameInTable="sawable_prd_idColumn" msprop:Generator_UserColumnName="sawable_prd_id" type="xs:long" minOccurs="0" />
+              <xs:element name="rate" msprop:Generator_ColumnVarNameInTable="columnrate" msprop:Generator_ColumnPropNameInRow="rate" msprop:Generator_ColumnPropNameInTable="rateColumn" msprop:Generator_UserColumnName="rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="srno" msprop:Generator_ColumnVarNameInTable="columnsrno" msprop:Generator_ColumnPropNameInRow="srno" msprop:Generator_ColumnPropNameInTable="srnoColumn" msprop:Generator_UserColumnName="srno" type="xs:string" minOccurs="0" />
+              <xs:element name="kapan_no" msprop:Generator_ColumnVarNameInTable="columnkapan_no" msprop:Generator_ColumnPropNameInRow="kapan_no" msprop:Generator_ColumnPropNameInTable="kapan_noColumn" msprop:Generator_UserColumnName="kapan_no" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TRN_LotID_Print_GetData" />
+      <xs:field xpath="mstns:lot_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

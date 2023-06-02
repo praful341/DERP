@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="DERP.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <connectionStrings>
+    <add name="localhost_DERP_Connection" connectionString="XpoProvider=MSSqlServer;data source=192.168.1.112;user id=sa;password=admin@123;initial catalog=DERP;Persist Security Info=true" />
+    <add name="DERP.Properties.Settings.DERPConnectionString" connectionString="Data Source=PRAFUL-PC;Initial Catalog=DERP;Integrated Security=True" providerName="System.Data.SqlClient" />
+  
+  </connectionStrings>
+  <appSettings>
+    <!--lOCAL 30-01-2020-->
+    <!--<add key="ServerHostName" value="fNN3e4I552UfwPT8AGNQrg==" />--> <!--Local-->
+    <!--<add key="ServerHostName" value="CSvbX9QRe9JbaXtXeNRsBA==" />-->
+    <!--<add key="ServerHostName" valu
+      ` 
+            ++6++ `6e="CSvbX9QRe9KBRiPVS/G88g==" />-->    <!--192.168.1.6-->
+    <!--<add key="ServerHostName" value="VRjBpLbrr4wS0cZQ5loapA==" />-->   <!--Galaxy Ambika-->
+    <!--192.168.0.68-->
+    <!--END-->
+    
+    <!--Demo-->
+    <!--<add key="ServerServiceName" value="fSnu52j3yFu3SsY4uYdKvx/A9PwAY1Cu" />-->  <!--MFG Working-->
+
+    <!--<add key="ServerServiceName" value="Amgs1o3dRmjez1HUTpWNXw==" />-->               <!--DERP GALAXY-->
+    <!--<add key="ServerServiceName" value="Y9M7n1xeW/UfwPT8AGNQrg==" />-->               <!--MFG Old-->
+    <!--<add key="ServerServiceName" value="fSnu52j3yFv+nRIK+4iHAB/A9PwAY1Cu" />-->       <!--MFG Restore-->
+    <!--<add key="ServerServiceName" value="MhTLjzyssqb3nCmZpNMhR5eJdQlJVprO" />-->       <!--Sales Working-->   
+    <!--<add key="ServerServiceName" value="MhTLjzyssqbGWfESAYBHs4sTrg/XUmrO" />-->       <!--Sales Restore-->
+    <!--<add key="ServerServiceName" value="sN2GDl/6YNs=" />-->                           <!--Test1-->
+    <!--<add key="ServerServiceName" value="MhTLjzyssqYogESsQLzLEGiMf6A4CLNV" />-->       <!--DERP_SALES_14102021-->
+    <!--<add key="ServerServiceName" value="XHdyhgqcoF9VGVsl5qHDrQ==" />-->               <!--DERP_ROUGH-->
+    <!--<add key="ServerServiceName" value="wmjYe0CtFrVVute4UX3d5w==" />-->               <!--DERP_DEMAND-->
+
+   
+    <!--Test1-->
+    <!--END--> 
+    <!--<add key="ServerServiceName" value="xVc4lRa4DfM=" />-->  
+    <!--HongKong-->
+    <!--DERP-->
+    <!--<add key="ServerServiceName" value="/7vDrPJrxqw=" />-->
+    <!--END-->
+    <!--Surat-->  
+    <!--<add key="ServerServiceName" value="fSnu52j3yFsfwPT8AGNQrg==" />-->
+    <!--MFG-->
+
+    <!--<add key="ServerPassWord" value="1m1aoLWd69HR1weotAkwaw==" />
+    <add key="ServerUserName" value="1DwL2KYsao4=" />-->
+    <!--END lOCAL 30-01-2020-->
+    
+    <!--LIVE 30-01-2020-->
+    <add key="ServerHostName" value="CSvbX9QRe9LtT/m9e5ZgGA==" />
+    <add key="ServerServiceName" value="/7vDrPJrxqw=" />
+    <add key="ServerUserName" value="FLUE/z/3B8A=" />
+    <add key="ServerPassWord" value="/dFmYOzaGKjR1weotAkwaw==" />
+    <!--END 30-01-2020-->
+   
+    <!--<add key="ServerPath" value="\\192.168.1.111\derpsharing" />-->
+    <add key="ServerPath" value="\\192.168.1.112\derpsharing" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+    
+  </appSettings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    <supportedRuntime version="v2.0" />
+  </startup>
+  <userSettings>
+    <DERP.Properties.Settings>
+      <setting name="UPLOADED_FILENAME" serializeAs="String">
+        <value>FilePath</value>
+      </setting>
+      <setting name="ORIGINAL_FILENAME" serializeAs="String">
+        <value>FileName</value>
+      </setting>
+      <setting name="UPLOAD_BY_USERNAME" serializeAs="String">
+        <value>Size</value>
+      </setting>
+    </DERP.Properties.Settings>
+  </userSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>

@@ -1,0 +1,119 @@
+﻿-------------------------- Task In Sales Module ----------------------------------
+
+Date : 25-Jun-2020
+1) Weight loss Delete option- pending praful bhai check sp - Task Cancel
+2) Add new Kapan selection in all transation report-done
+3) Avg Rate Display in All Entry Form / All Report From (with live) -Done
+4) Chipiyo process save then save rate/amount (Avg.)-done
+5) FrmProcessReceiveReport cut no not filter-done
+6) Cut View Avg Rate. - pending for surfing-done praful bhai
+7) All Receive screen weight loss / weight + add option - add only two form MfglotSplit and SawableRecieve discussion with team -Done
+8) Weight loss list and delete button hide-    done
+10) lost focus lod master process/sub process) -done
+11) Process Issue Chipiyo final (Rate Auto)-Amit - Done
+12) Janged Issue - Done
+13) CutWiseview Add quality,rough sieve, clarity,Purity filter. - Done
+14) Process Recieve(Assort Final) old lot entry - Done
+Date : 29-Jun-2020
+1) Janged Issue List Add - Done
+Date : 17-Jul-2020
+1) Issue Process Validation. - Done
+2) Type Add in Kapan Create. - Done
+3) Add Srno in Rough Sale enter by user. - Done
+4) Janged Issue Report. - Done
+5) Mixsplit Report. - Done
+6) Save Company Branch location Department. - Done
+7) Cut wise Kapan show. - Done
+8) Validation Process of screenwise lot show. - Done
+9) Cutview Filter & Search  button to show.
+10)In Cutview Footer multiple Summary.-Done
+11)Export Excel Summwary Row remove. -Done
+12)Add Type 'Both' in All screen. -Done
+13)User Master Password Show Hide. -DOne
+14)Backdate Code put all mfg screen. - Done
+
+Date : 12-Aug-20
+1) Ledger Master Data Not fill in grid - Done
+2) Broker Master add Company, Branch, Location and also display location wise in grid - Done
+3) Daily Ledger Book Report Not Refresh and Check in all Report (Repeat Work) - Done By praful bhai
+4) History Data Save in MFG All tranjection (Discuss to praful) - Done
+5) Mix-Split Screen In grid filter of any column then autometic amount filter = 0 - Do praful bhai
+6) Stock Reports - MFG-Done 
+7) MST_Ledger add new seqeunce no - Done
+
+Date : 17-Aug-20
+8) Load Entry New Screen - Assign To Praful
+
+
+Date : 18-Aug-20
+9) If user create assort no in master then auto entry in trn_stock table org_carat, balance_carat = 0 default
+   - Ex. user create (TOP LC) No. then check sive in master total 5 so insert in 5 record in trn_stock
+   -  and entry auto insert location wise total location = 3 then (1 * 5) = 5  and (5 * 3) = 15 entry - Done
+
+Date : 19-Aug-20
+10) Profit Loss Report - add option Export to excel (Notes := 2 gird export in 1 excel sheeet) - Done But multiple sheet not single Sheet
+11) Exp. Master Change Grid column header Cash = (Cash/Bank) - Done
+12) In Sale Mix-Split Report From To Assort wise (Auto Gentarate No Not Display) - Done
+13) Mumbai to Surat Branch Payment Entry (Debit Entry In TRN_Exp. Table) and Exp.Table Add new Column bt_id, bt_detail_id
+    then after display O/s Balance in Screen - Done
+
+Date : 20-Aug-20
+14) bank entry cash to bank - Done
+
+15) Memo receive save then memo issue entry not update - Done By Mayur bhai
+16) mix-split scrren add new total column in grid - Done
+17) Validation 0.05 diff. allow in mix-split screen - Done
+
+
+Date : 21-Aug-20
+18) Export to Excel in All Screen.Done
+Date : 09-Sep-20
+20) Add month column in Sales Report.Done
+21) List Netamount column add saleinvoice.Done
+22) Expense Entry screen Size Change.Done
+23) Income Entry screen Size Change.Done
+24) Mix In Mix Out Stock ledger out.Done
+25) Price import screen check validation not insert same assort and sieve.Done
+26) Price Import new assort entry at same day insert.Done
+27) Bank Corporation blank pass on loan entry. Done
+28) In sale report add column gst ,gross rate ,gross amount. Done
+29) Making query sale entry ,branch and purchase entry rate average.- Done by mayur bhai
+30) Brokerage payable save exchange rate.Done
+31) Refresh in price list import report. Done
+32) In price import excel file open then msg show "Excel file is open plz close the file". Done
+33) In price import if new price import then check all old assort No price is necessary. Done
+Pending:
+34) Check All Entry screen date validation not greater than current date.
+35) Put Validation on memo screen mulltiple.
+36) Price Different Amount Insert Different in Pl_Different_Amount Table.Taken by Mayur bhai 
+37) In mixsplit rejection entry rate and amount not be blank.-Discuss with mayur bhai working another issue then implement this validation 
+38) Company memo Issue Save understanding with praful bhai and save.
+
+Date : 02-Oct-2020
+
+1) Create New Screen Price Setting Master Table name (MST_Price_Setting) - Done
+2) Table Name : MST_Aging  (Excel Import)
+3) Table Name : MST_Aging_Save (Triger save)
+
+
+
+
+--------------------- Task In MFG Module -------------------------------
+
+
+Date:- 27-09-2020 - Amit
+
+1) issue proces name in Combobox (If Lot Issue in One Process / Sub Process then Disable) - Amit - Testing Pending
+2) process receive o/s pcs not display all return screen - Amit- Testing Pending
+3) kapan & Cut Auto (after barcode scan) (lalubhai Screen Kapan and Cut Disable) - Amit- Testing Pending
+4) Same Departmet not transfer (janged issue) - Done
+
+Date:- 05-Oct-2020 
+
+1) Design new Opening Closing report Screen in dynamic report setting
+2) Default Active im master all screen.
+3) History Table insert issue And Receive in Save time RR,Rejection,Loss,Lost Carat Save in History Table.
+4) MFGMixSplit Screen Delete button put in Split Grid.
+5) Issue And Receive All Procedure List Ready.
+6) FrmMFGHistory Screen Ready and Testing.
+

@@ -1,0 +1,1409 @@
+﻿1) sale invoice form = rejection (%) - Done
+2) mix_split_with = rate - Done
+3) entry delete inv.no = 807 - Done
+4) rejection carat/(%) - Done
+5) TRN_MixSplit_GetLiveData - Done
+6) TRN_MixSplit_GetAllData - Done
+7) TRN_MixSplit_MemoGetLiveData - Done
+8) trf_rate and trf_amount add in 3 sp Side - Done
+9) TRN_Sale_Invoice_Detail_Save - Done
+
+Date : 14-Aug-20
+
+10) Ex. Diff. = if dollar rate change (stock value) and sale payment accept then (Expense Table/Income Table) new entry ledger wise +/-
+11) Rate Diff. = Old Price - New Price (=/-) New entry Ledger wise
+12) Purchase Rate Diff. - Puchase Payment diff.
+13) Profit Loss Report = in case of ex. rate update old date (back date) then cl. carat auto calculate then after save data in (income/exp. table) 
+14) bank entry cash to bank - Done Amit
+15) Advance entry (Loan) - Done Amit
+16) Branch transfer surat to mumbai (mumbai entry payment)
+17) Opening in Daily Ledger Book
+18) Stock Ledger In Out Report Add new Mix-Split From and Mix-Split To
+
+Date : 20-Aug-20
+
+19) Validation 0.05 diff. allow in mix-split screen - Amit
+20) mix-split scrren add new total column in grid  - Amit
+21) mix-split amount default filter issue - Praful - Done 
+22) if memo receive pending then update memo issue details other wise not update -- Done
+23) Sale Invoice Currency Type not Update -- Done Mayur
+24) Memo Issue Memo No Duplicate Check -- Dome Mayur
+25) Memo return no change
+26) Search memo no then error object set refrance -- Done Mayur
+27) Memo Issue validation balance Carat  - Done 
+28) Sale Invoice Data Update Old Carat Validation Issue (balance carat not more then)
+
+Date : 21-Aug-20
+29) Sale Invoice Data auto fill (Memo receive data) - Done 
+30) Term discount add in party payment
+31) Sale Invoice Credit_Debit Report (Ledger wise) - Done 
+
+
+Date : 22-Aug-20
+1) Outstanding In Payment Report - Done 
+2) Invoice = 0 then receive amount add then opening - minus Done
+
+
+DATE : 30-Aug-20
+1) MULTIPLE LOT ISSUE IN SINGLE MEMO Then Single recieve not check with os carat at save time.
+
+Date : 03-Sep-20
+
+1) Kalkata O/s Upload Purchase -- Done
+2) Loan Report new -- Done
+3) Purchase to purchase return diff. reports
+4) Mix-Split Reports 
+5) Party sale payment GST effect in O/s amount-- Done
+6) Loan advance entry from date / to date data not display -- Done
+7) Add new advance return in loan amount -- Done
+
+Date : 08-Sep-20
+
+1) Party payment receive bank then save data in surat ledger auto
+2) Polish sale details reports purchase avg. rate display in current rate - Done
+3) Polish sale details reports branch confirm. rate display in current rate - Done
+4) Mix-split screen weight loss issue
+5) Ledger Master add new Actual Opening
+
+========================== Update Sp & Exe. ==========================================================================
+
+Date : 28/01/2020
+Name : Mayur 
+
+SP Name :  RPT_BrokerAge_Monthwise - Done
+Table Name : TRN_Expense_Entry - Done
+Table Name : TRN_Income_Entry - Done
+
+---------------------------------------------
+Date : 28/01/2020
+Amit  : SP_Name : 1) MST_Ledger_GetData - Done
+				  2) MST_Ledger_Save - Done
+				  3) MST_Party_Save, - Done
+				  4) MST_Broker_Save, - Done
+				  
+Amit  : Table Name : 1) MST_Ledger - Done
+
+----------------------------------------------
+
+Date : 28/01/2020
+Praful  : SP_Name : 1) MST_Income_Entry_Search_GetData - Done
+				  2) MST_Income_Entry_Master_Save - Done
+				  3) MST_Expence_Entry_Search_GetData - Done
+				  4) MST_Expence_Entry_Master_Save - Done
+
+---------------------------------------------- 
+Date : 29/01/2020
+Praful  : SP_Name : 1) TRN_Demand_Master_Save- Done
+					2) TRN_Demand_GetData- Done
+					3) TRN_Demand_GetDetailsData- Done
+				
+Praful  : Table Name : 1) TRN_Demand_Noting - Done
+---------------------------------------------- 
+
+Date : 29/01/2020
+Amit  : SP_Name : 1) TRN_PartyPayment_GetData - Done
+				  2) TRN_PartyPayment_Save - Done
+				  3) TRN_Brokerage_GetData - Done
+				  4) TRN_Brokerage_Save, - Done
+				  
+Amit  : Form Name : 1) FrmBrokeragePayable,BrokeragePayable,Brokerage_PayableProperty - Done
+					2) FrmPartyPayable,PartyPayable,Party_PayableProperty - Done
+
+----------------------------------------------
+Date : 30/01/2020
+Praful  : SP_Name : 1) MST_Get_All_Data - Done
+					2) RPT_Daily_Ledger_Getdata - Done
+				
+Praful  : Table Name : 1)
+---------------------------------------------- 
+Date : 30/01/2020
+Amit  : SP_Name : 1) MST_Color_Group_GetData - Done
+				  2) MST_Color_Group_Save - Done
+				  3) MST_Mapping_Save - Done
+				  4) MST_Mapping_GetData - Done
+
+Amit  : Table :   1) MST_Color_Group - Done
+
+Amit  : Form Name : 1) FrmMappingMaster,MappingMaster,Mapping_MasterProperty - Done
+					2) FrmColorGroupMaster,ColorGroupMaster,ColorGroup_MasterProperty - Done
+
+----------------------------------------------
+Date  : 31/01/2020
+Mayur : TRN_Demand_Master_Save - Done
+Mayur : TRN_Demand_GetData - Done
+
+----------------------------------------------
+Date  : 01/02/2020
+Praful  : SP_Name :	1) TRN_Company_Memo_GetCarat - Done
+					2) TRN_Company_Memo_Receive_GetDetail - Done
+					3) TRN_MixSplit_MemoGetLiveData - Done
+					4) TRN_MixSplit_SAVE - Done
+
+----------------------------------------------
+Date  : 02/02/2020
+Praful  : SP_Name :	1) Config_Single_Setting_CopySave - Done
+
+----------------------------------------------
+Date  : 03/02/2020
+Praful  : SP_Name :	1) MST_User_Preference - Done
+
+					2) MST_Preference_GetData - Done
+					3) MST_Preference_Save - Done
+					4) MST_User_Preference_GetData - Done
+					5) Check_Login - Done
+
+----------------------------------------------
+Date : 04/02/2020
+Amit  : Form Name : 1) FrmMemoRecieve,MemoRecieve,Memo_RecieveProperty. - Done
+					2) FrmSaleInvoice,SaleInvoice,Sales_InvoiceProperty. - Done
+					3) All transaction form update designer for party & broker width changes. - Done
+					
+----------------------------------------------
+Date : 04/02/2020
+Praful  :	1) TRN_MemoRecieve_Save - Done
+			2) TRN_MemoIss_GetCarat - Done
+			,CASE WHEN MAX(I.issue_type_id) = 2 THEN SUM(I.loss_carat) ELSE 0 END AS loss_carat - Done
+
+		TRN_MemoIssue_Receipt
+		Column Add - loss_carat decimal(18, 3) - Done
+		TRN_MemoIssue_Save - Done
+----------------------------------------------
+Date : 05/02/2020
+Mayur  : 1) RPT_Live_Stock - Done
+
+----------------------------------------------
+Date : 07/02/2020
+Mayur : 1) Add QBC in MST_Party Table - Done
+
+----------------------------------------------
+Date : 07/02/2020
+Amit  : Form Name : 1) FrmPartyMaster,PartyMaster,Party_MasterProperty. - Done
+					2) FrmProcessMaster,ProcessMaster,Process_MasterProperty. - Done
+					3) Global.cs. - Done
+					4) FrmConfigProcess,ConfigProcess,ConfigProcess_MasterProperty. - Done
+					5) FrmConfigPartyBroker,ConfigPartyBrokerMaster,ConfigPartyBroker_MasterProperty - Done
+					6) FrmPartyMaster,PartyMaster, - Done
+		
+		SP_Name	  : 1) MST_Party_GetData. - Done
+					2) MST_Party_Save.	 - Done
+					3) MST_Process_GetData. -- Done
+					4) MST_Process_Save. -- Done
+					5) MST_Config_Process_GetData. -- Done
+					6) MST_Config_Process_Save.	-- Done		 
+					7) MST_Config_PartyBroker_Save. -- Done
+					8) MST_Config_PartyBroker_GetData. -- Done
+					   
+----------------------------------------------
+
+Date : 10/02/2020
+Amit  : Form Name : 1) FrmPartyMaster,PartyMaster. -- Done
+					2) FrmMemoIssue. -- Done
+		
+		SP_Name	  : 1) MST_Party_GetData. -- Done
+					2) MST_Party_Save.	 -- Done
+					
+----------------------------------------------	
+Date : 10/02/2020
+SP_Name	  : 1) TRN_MemoRecieve_Save - Done.
+
+----------------------------------------------	
+Date : 11/02/2020
+Amit  : Form Name : 1) FrmSaleInvoice,SaleInvoice.  -- Done
+					2) FrmBrokeragePayable. -- Done
+					3) FrmPartyPayable. -- Done
+					4) FrmBankMaster,BankMaster,Bank_MasterProperty,Global.cs. -- Done
+					5) FrmIncomeEntry,IncomeEntry_MasterProperty,IncomeEntryMaster. -- Done
+					6) FrmPartyPayable,PartyPayable,Party_PayableProperty. -- Done
+		
+		SP_Name	  : 1) TRN_Sale_Invoice_GetData. -- Done	 				
+					2) TRN_OpeningDate_GetData. -- Done
+					3) MST_Bank_Save. -- Done
+					4) MST_Bank_GetData. -- Done
+					5) MST_Income_Entry_Master_Save. -- Done
+					6) MST_Income_Entry_Search_GetData. -- Done
+					7) TRN_PartyPayment_GetData. -- Done
+					8) TRN_PartyPayment_Save. -- Done
+----------------------------------------------	
+Date : 11/02/2020
+Mayur :  SP_Name : TRN_MixSplit_Save -- Done
+				   TRN_MixSplit_GetAllData -- Done
+							   
+----------------------------------------------	
+Date : 12/02/2020
+Amit  : Form Name : 1) FrmSaleInvoice.
+
+----------------------------------------------	
+Date : 12/02/2020
+Praful  : SP Name : 1) MST_Config_Form_GetData. -- Done
+					2) MST_Config_Form_Save -- Done
+					3) UserAuth_Menu_Form_GetData -- Done
+					4) MST_Branch_GetData -- Done
+					5) MST_Branch_Save -- Done
+		Table :		1) Config_Form Table Add Column form_group_name varchar(20) -- Done
+					2) MST_Branch Column Add(CGST,SGST,IGST,GSTNO,Ledger_ID)  -- Done
+
+----------------------------------------------	
+Date : 12/02/2020
+
+Mayur : SP Name : 
+				 1) MST_Sub_Sieve_Save -- Done
+				 2) MST_Sub_Sieve_GetData -- Done
+				 3) MST_Currency_GetID -- Done
+				 4) MST_Currency_CheckID -- Done
+				 5) TRN_Sale_Invoice_Master_Save -- Done
+				 6) TRN_Sale_Invoice_Detail_Save -- Done
+
+----------------------------------------------	
+Date : 12/02/2020
+Amit  : Form Name : 1) FrmDepartmentMaster,DepartmentMaster,Department_MasterProperty. -- Done
+					2) FrmLedgerMaster,LedgerMaster,Ledger_MasterProperty. -- Done
+					3) FrmPartyMaster,PartyMaster,Party_MasterProperty. -- Done
+					4) FrmMfgJangedSieve,MfgJangedSieve,MfgJanged_SieveProperty. -- Done
+					5) FrmMfgLotingSieve,MfgLotingSieve,MfgLoting_SieveProperty. -- Done
+					6) FrmMfgReturnStatus,MfgReturnStatus,MfgReturn_StatusProperty. -- Done
+					7) FrmMfgRoughSieve,MfgRoughSieve,MfgRough_SieveProperty. -- Done
+
+	  : SP Name   : 1) MST_Department_Save. Add Column department_type sp and table. -- Done
+					2) MST_Department_GetData. -- Done
+					3) MST_Ledger_GetData. Add Column factory sp and table. --Done
+					4) MST_Ledger_Save. -- Done
+					5) MST_Party_Save. Add Column factory sp and table. -- Done
+					6) MST_Party_GetData. -- Done
+					7) MFG_MST_JangedSieve_GetData. -- Done
+					8) MFG_MST_JangedSieve_Save. -- Done
+					9) MFG_MST_LotingSieve_GetData. -- Done
+				   10) MFG_MST_LotingSieve_Save. -- Done
+				   11) MFG_MST_ReturnStatus_Save. -- Done
+				   12) MFG_MST_ReturnStatus_GetData. -- Done
+
+----------------------------------------------	
+Date : 14/02/2020
+Mayur : 
+SP Name : 
+			TRN_Income_Entry_Save  -- Done
+			TRN_InvoiceNo_GetData -- Done
+			TRN_Sale_Invoice_Detail_Save -- Done
+			TRN_Sale_Invoice_GetData -- Done
+			TRN_Sale_Invoice_GetDetailsData -- Done
+			TRN_Sale_Invoice_Master_Save -- Done
+			TRN_Memo_GetDetail -- Done
+			TRN_MemoIss_GetCarat -- Done
+			TRN_MemoIssue_Save -- Done
+			TRN_MemoRecieve_Save -- Done
+			TRN_MemoNo_GetData -- Done
+			TRN_DemandNo_GetData -- Done
+
+------------------------------------------------
+Date : 17/02/2020
+Mayur : 
+
+MST_Mapping_GetData  -- Done
+------------------------------------------------
+Date : 18/02/2020
+Amit  : Form Name : 1) FrmOpeningStock,OpeningStock. -- Done
+					2) FrmMfgRoughTypeMaster,MfgRoughType_MasterProperty,MfgRoughTypeMaster. -- Done
+					3) FrmMfgTensionTypeMaster,MfgTensionType_MasterProperty,MfgTensionTypeMaster. -- Done
+					4) FrmMfgProfitCenterMaster,MfgProfitCenter_MasterProperty,MfgProfitCenterMaster. -- Done
+					5) FrmMfgReasonMaster,MfgReason_MasterProperty,MfgReasonMaster. -- Done
+					6) FrmMappingMaster,MappingMaster.-- Done
+					7) FrmMfgSightTypeMaster,MfgSightTypeMaster,MfgSightType_MasterProperty. -- Done
+					8) FrmMfgSourceMaster,MfgSourceMaster,MfgSource_MasterProperty. -- Done
+					9) FrmConfigPartyBroker.-- Done
+				   10) All Master form update for exit shortcut alt + X. -- Done
+
+	  : SP Name   : 1) TRN_RateDetail_CheckData. -- Done
+					2) MFG_MST_Reason_Save. -- Done
+					3) MFG_MST_Reason_GetData. -- Done
+					4) MFG_MST_ProfitCenter_Save -- Done
+					5) MFG_MST_ProfitCenter_GetData. -- Done
+					6) MFG_MST_RoughType_Save. -- Done
+					7) MFG_MST_Roughtype_GetData. -- Done
+					8) MFG_MST_TensionType_GetData. -- Done
+					9) MFG_MST_TensionType_Save. -- Done
+				   10) MST_MappingShow_GetData.  -- Done
+				   11) MFG_MST_Source_GetData. -- Done
+				   12) MFG_MST_Source_Save. -- Done
+				   13) MFG_MST_SightType_Save. -- Done
+				   14) MFG_MST_SightType_GetData. -- Done
+------------------------------------------------
+Date : 19/02/2020
+Mayur : vw_Stock_Ledger (View)
+		RPT_StockLedger (SP)
+------------------------------------------------
+Date : 19/02/2020
+Amit  : Form Name : 1) FrmMfgStatusMaster,MfgStatusMaster,MfgStatus_MasterProperty. -- Done
+					2) FrmMfgTeamMaster,MfgTeamMaster,MfgTeam_MasterProperty. -- Done
+					3) FrmMfgSubProcessMaster,MfgSubProcessMaster,MfgSubProcess_MasterProperty. -- Done
+					4) FrmMfgSawTypeMaster,MfgSawTypeMaster,MfgSawType_MasterProperty. -- Done
+					5) FrmMfgArticleMaster,MfgArticleMaster,MfgArticle_MasterProperty, -- Done
+					6) FrmMfgGroupMaster,MfgGroupMaster,MfgGroup_MasterProperty. -- Done
+					7) All Form Update for Date Validation. -- Done
+					8) FrmMfgWeightValidationMaster,MfgWeightValidationMaster,MfgWeightValidation_MasterProperty. -- Done
+					9) FrmMfgDepartmentAgeingMaster,MfgDepartmentAgeingMaster,MfgDepartmentAgeing_MasterProperty. -- Done
+				   10) MfgDepartmentShiftMappingMaster. -- Done
+
+	  : SP Name   : 1) MFG_MST_Status_Save. -- Done
+					2) MFG_MST_Status_GetData. -- Done
+					3) MFG_MST_Article_Save. -- Done
+					4) MFG_MST_Article_GetData -- Done
+					5) MFG_MST_Group_Save. -- Done
+					6) MFG_MST_Group_GetData. -- Done
+					7) MFG_MST_SawType_Save. -- Done
+					8) MFG_MST_SawType_GetData. -- Done
+					9) MFG_MST_SubProcess_Save. -- Done
+				   10) MFG_MST_SubProcess_GetData.  -- Done
+				   11) MFG_MST_Team_Save. -- Done
+				   12) MFG_MST_Team_GetData. -- Done
+				   13) MFG_MST_WtValidation_GetData. -- Done
+				   14) MFG_MST_WtValidation_Save. -- Done
+				   15) MFG_MST_DeptAgeing_GetData. -- Done
+				   16) MFG_MST_DeptAgeing_Save. -- Done
+------------------------------------------------	
+Date : 25/02/2020
+Amit  : Form Name : 1) FrmMfgDepartmentProcessMappingMaster,MfgDepartmentProcessMappingMaster,MfgDepartmentProcessMapping_MasterProperty. -- Done
+					2) FrmMfgProcessGroupMaster,MfgProcessGroupMaster,MfgProcessGroup_MasterProperty. -- Done
+					3) FrmMfgMachineTypeMaster,MfgMachineTypeMaster,MfgMachineType_MasterProperty. -- Done
+					4) FrmMfgProcessAgeingMaster,MfgProcessAgeingMaster,MfgProcessAgeing_MasterProperty. -- Done
+					5) FrmMfgShiftMaster,MfgShiftMaster,MfgShift_MasterProperty. -- Done
+					6) FrmMfgMachineMaster,MfgMachineMaster,MfgMachine_MasterProperty. -- Done
+					7) FrmMFGPurchase,MFGPurchase,MFG_PurchaseProperty.	-- Done	
+
+	  : SP Name   : 1) MFG_MST_DeptProcess_Mapping_Save. -- Done	
+					2) MFG_MST_DeptProcess_Mapping_GetData.	-- Done	
+					3) MFG_MST_MachineType_Save. -- Done	
+					4) MFG_MST_MachineType_GetData. -- Done	
+					5) MFG_MST_Machine_Save. -- Done	
+					6) MFG_MST_Machine_GetData. -- Done	
+					7) MFG_MST_ProcessAgeing_Save. -- Done	
+					8) MFG_MST_ProcessAgeing_GetData. -- Done	
+					9) MFG_MST_Shift_Save. -- Done	
+				   10) MFG_MST_Shift_GetData. -- Done	
+				   11) MFG_MST_ProcessGroup_Save. -- Done	
+				   12) MFG_MST_ProcessGroup_GetData. -- Done	
+				   13) MST_Party_Save. -update -- Done	
+				   14) MFG_TRN_Purchase_Master_SAVE. -- Done	
+				   15) MFG_TRN_Rough_Stock_SAVE. -- Done	
+				   16) MFG_TRN_Purchase_Detail_SAVE. -- Done	
+				   17) MFG_TRN_Purchase_GetData. -- Done	
+				   18) MFG_TRN_Purchase_GetDetailsData. -- Done	
+				   19) MFG_TRN_Purchase_Delete. -- Done	
+					
+------------------------------------------------		
+Date : 26/02/2020
+
+Mayur SP Name : RPT_Get_Dashbord_Data
+------------------------------------------------	
+Date : 26/02/2020
+Amit  : Form Name : 1) FrmMixSplit. - Done
+					2) FrmStockLedger,FrmStockReport,FrmReportList,FrmReportListNew. - Done
+					3) Global. - Done
+
+	  : SP Name   : 1) MFG_MST_DeptProcess_Mapping_Save. - Done
+					2) MFG_MST_DeptProcess_Mapping_GetData. - Done
+					3) MFG_MST_MachineType_Save. - Done
+
+------------------------------------------------	
+Date : 28/02/2020
+Amit  : Form Name : 1) FrmMFGKapanCreate,MFGKapanCreate,MFGKapanCreateProperty. - Done
+					2) FrmMemoIssue,MemoInvoice. - Done
+							
+
+	  : SP Name   : 1) MFG_TRN_Kapan_SAVE. - Done
+					2) MFG_TRN_Rough_Stock_SAVE. - Done
+					3) MFG_TRN_Rough_MixSplit_SAVE. - Done
+					4) TRN_MemoSearch_GetData. - Done
+------------------------------------------------	
+Date : 29/02/2020
+Amit  : Form Name : 1) FrmMFGCutCreate,MFGCutCreate,MFGCutCreateProperty. - Done
+					2) FrmMfgRoughCutTypeMaster,MfgRoughCutTypeMaster,MfgRoughCutType_MasterProperty. - Done
+					3) Global. - Done	
+
+	  : SP Name   : 1) MFG_TRN_RoughCut_GetData. - Done
+					2) MFG_TRN_Kapan_GetData. - Done
+					3) MFG_TRN_Rough_Stock_SAVE. - Done
+					4) MFG_TRN_RoughCut_MixSplit_SAVE. - Done
+					5) MFG_TRN_Rough_Cut_SAVE. - Done
+					6) MFG_TRN_KapanNo_GetData. - Done
+					7) MFG_MST_Rough_CutType_Save. - Done
+					8) MFG_MST_Rough_CutType_GetData. - Done
+------------------------------------------------
+Date : 03/03/2020
+Amit  : Form Name : 1) FrmSalesStock,SalesStock,Sales_StockProperty. - Done
+					2) FrmMemoIssue,MemoInvoice.  - Done
+					3) All Report Update.  - Done
+
+	  : SP Name   : 1) TRN_Sales_Stock_SAVE. - Done
+					2) TRN_Sales_Stock_GetData.	- Done
+					3) TRN_Company_Memo_GetDetail.	- Done	
+------------------------------------------------
+Date : 04/03/2020
+Amit  : Form Name : 1) FrmPartyPayable,PartyPayable,Party_PayableProperty.-- add column in table - Done
+					2) FrmSaleInvoice,SaleInvoice,Sales_InvoiceProperty.-- add column in table - Done
+					3) 
+
+	  : SP Name   : 1) TRN_PartyPayment_Save. - Done
+					2) TRN_PartyPayment_GetData.	 - Done
+					3) TRN_Sale_Invoice_GetData. - Done
+					4) TRN_Sale_Invoice_Master_Save. - Done
+					5) TRN_BT_GetStockCarat. - Done
+------------------------------------------------
+Date : 04/03/2020 
+Mayur : 
+SP Name : 
+			1) MFG_TRN_EMPTarget_GetData	- Done
+			2) MFG_TRN_RoughCut_GetAllData	- Done
+			3) MFG_TRN_Employee_Performance_Save	- Done
+
+------------------------------------------------
+Date : 05/03/2020
+Amit  : Form Name : 1) FrmIncomeEntry,IncomeEntryMaster,IncomeEntry_MasterProperty.	- Done			 
+
+	  : SP Name   : 1) TRN_Income_Entry_Save. - Done
+					2) TRN_Income_Entry_GetData. - Done
+					
+------------------------------------------------
+Date : 06/03/2020
+Mayur : SP Name 
+				1) MFG_TRN_EMPTarget_GetData - Done
+				2) MFG_TRN_Employee_Performance_Delete - Done
+				3) MFG_TRN_Employee_Performance_Save - Done
+------------------------------------------------
+Date : 06/03/2020
+Amit  : Form Name : 1) FrmPartyPayable,PartyPayable,Party_PayableProperty.	 - Done			 
+
+	  : SP Name   : 1) TRN_Party_Payment_GetData.---Add Column In TRN_Expense_Entry
+					2) TRN_PartyPayment_Remark_Save. - Done	
+					3) TRN_PartyPayment_GetData.- Done	
+					4) RPT_Employee_Performance_Wise - Done	
+					
+------------------------------------------------
+Date : 12-Mar-2020
+Mayur :
+		Table 
+
+		1) MFG_TRN_Lot_LockType - Done
+		2) MFG_TRN_Lot_Lock - Done
+		3) MST_ID_Proof -- Done
+
+		SP 
+
+		1) MST_Party_Save- Done		
+		2) MST_Party_GetData- Done		
+
+Add New column table party master : idproof_id, idproof_no - Done		
+
+------------------------------------------------
+Date : 13/03/2020
+Praful  : Form Name : 1) FrmIDProofMaster,IDProofMaster,IDProofMasterProperty.	 - Done			 
+
+	  : SP Name   : 1) MST_IDProof_Save. - Done		
+					2) MST_IDProof_GetData.- Done		
+		Table - 1) MST_ID_Proof- Done	
+		
+				2) MFG_TRN_Purchase Table - Column Add - Done		
+					1. premium_per - Done		
+					2. premium_amount - Done		
+
+		: SP Name   1) MFG_TRN_Purchase_Master_SAVE. - Done		
+					2) MFG_TRN_Purchase_GetData.- Done
+
+------------------------------------------------
+Date : 14/03/2020
+Praful  :
+	  : SP Name   : 1) MFG_TRN_Lot_Lock_Delete.- Done		
+					2) MFG_TRN_Lot_Lock_GetData.- Done		
+					3) MFG_TRN_Lot_Lock_Save.- Done
+					
+------------------------------------------------
+Date : 17/03/2020
+Amit  : Form Name : 1) FrmMfgProductionCapacityMaster,MfgProductionCapacityMaster,MfgProductionCapacity_MasterProperty. - Done	 
+
+	  : SP Name   : 1) Mst_Production_Capacity_Save. - Done
+	  : Table     : 1) MST_Production_Capacity. - Done
+					
+------------------------------------------------	
+Date : 23/03/2020
+Amit  : Form Name : 1) FrmCostPriceImport,CostPriceImport,CostPrice_ImportProperty,SProc.	 -- Done
+
+	  : SP Name   : 1) TRN_CostPrice_Import_Save. - Done
+					2) TRN_CostPrice_Import_Detail_Save. - Done
+					3) TRN_CostPrice_Import_GetData. - Done
+
+	  : Table     : 1) MST_CostRate - Done
+					2) MST_CostRate_Log - Done
+					3) MST_CostRateDetail - Done
+					4) MST_CostRateDetail_Log - Done
+					
+------------------------------------------------		
+Date : 26-Mar-20
+Mayur : 
+	   SP Name : 1) Get_Monthwise_SaleSummary - Done
+				 2) MST_CostRate_Generate - Done
+
+------------------------------------------------
+Date : 26/03/2020
+Amit  : Form Name : 1) MfgProductionCapacityMaster,SProc. -- Done
+					2) FrmSuggestPriceImport,SuggestPriceImport,SuggestPrice_ImportProperty.  -- Done
+					3) DemandNoting. -- Done
+
+	  : SP Name   : 1) MFG_Mst_Production_Capacity_Delete rename Mst_Production_Capacity_Delete. -- Done
+					2) MFG_Mst_Production_Capacity_Save rename Mst_Production_Capacity_Save. -- Done
+					3) TRN_Suggest_Price_Import_Detail_Save. -- Done
+					4) TRN_Suggest_Price_Import_GetData. -- Done
+					5) TRN_Suggest_Price_Import_Save.	-- Done
+					6) Mst_Production_Capacity_GetData.	-- Done
+					7) TRN_CostPrice_Import_Save. -- Done
+
+	  : Table     : 1) MST_Suggest_Rate -- Done
+					2) MST_Suggest_Rate_Log -- Done
+					3) MST_Suggest_RateDetail -- Done
+					4) MST_Suggest_RateDetail_Log -- Done
+					5) TRN_Demand_Master_Save -- Done
+					
+------------------------------------------------
+
+Date : 28/03/2020
+Amit  : Form Name : 1) FrmMFGCutCreate,MFGCutCreate,MFGCutCreateProperty. -- Done
+				`	2) FrmMFGPurchase. -- Done
+
+	  : SP Name   : 1) MFG_TRN_Lot_Lock_Delete-- Done
+					
+------------------------------------------------
+Date : 29/03/2020
+Mayur : 
+
+ SP Name   : 1) MFG_MST_RoughPrice_Import -- Done
+			 2) MFG_MST_RoughPrice_Delete -- Done
+			 3) MFG_TRN_Process_Issue_Save -- Done
+
+
+------------------------------------------------
+Date : 30/03/2020
+Praful : 
+
+ Table :
+			1) MFG_MST_Rough_Color -- Done
+			2) MFG_MST_Rough_Clarity -- Done
+			3) MFG_TRN_Stock -- Done
+
+
+SP Name: 	
+			1) MFG_MST_Rough_Color_GetData -- Done
+			2) MFG_MST_Rough_Color_Save -- Done
+			3) MFG_MST_Rough_Clarity_Save -- Done
+			4) MFG_MST_Rough_Clarity_GetData -- Done
+			5) MFG_TRN_Stock_SAVE -- Done
+			6) MFG_TRN_Rough_Cut_SAVE -- Done
+------------------------------------------------
+Date : 30/03/2020
+Amit :   Form Name : 1) FrmMFGCutCreate. -- Done
+					 2) FrmMFGKapanCreate. -- Done
+					 3) FrmMFGProcessIssue. -- Done
+					 4) FrmGReportViewerBand. -- Done
+					 5) FrmDemandNoting,DemandNoting,Demand_NotingProperty. -- Done
+					 6) FrmProcessMaster,ProcessMaster,Process_MasterProperty. -- Done
+					 7) FrmMFGProcessWeightLossRecieve,MFGProcessWeightLossRecieve,MFGProcessWeightLossRecieve_Property,sproc. -- Done
+
+		 SP Name   : 1) RPT_MFG_Kapan_Summary.  -- Done
+					 2) RPT_MFG_Purchase_Summary.  -- Done
+					 3) RPT_MFG_RoughCut_Summary.  -- Done
+					 4) RPT_MFG_RoughStk_Summary.  -- Done
+					 5) TRN_Demand_GetDetailsData.  -- Done
+					 6) TRN_Demand_GetData.  -- Done
+					 7) TRN_Demand_Master_Save.  -- Done
+					 8) RPT_MFG_ProcessIssue_Summary.  -- Done
+					 9) RPT_MFG_ProcessRecieve_Summary  -- Done
+					10) MST_Process_Save.  -- Done
+					11) MST_Process_GetData.  -- Done
+					12) MFG_TRN_Process_WeightLoss_Save.  -- Done
+				    13) MST_PurityGroupWise_Purity.  -- Done
+------------------------------------------------
+------------------------------------------------
+Date : 06/04/2020
+Amit :   Form Name : 1) FrmMFGSawableRecieve,MFGSawableRecieve,MFGSawableReceiveProperty.  -- Done
+					 2) FrmMFGDepartmentTransfer,MFGDepartmentTransfer,MFGDepartmentTransferProperty,SProc.  -- Done
+					 3) FrmMfgDepartmentTransferConfirm,MfgDepartmentTransferConfirm.  -- Done
+					 4) FrmMFGPredictionView,MfgTrnPredictionView. -- Done
+					
+		 SP Name   : 1) MFG_TRN_Sawable_Receive_Save. -- Done
+					 2) MFG_TRN_RoughCut_GetAllData. -- Done
+					 3) MFG_TRN_Stock_GetData. -- Done
+					 4) MFG_MST_Rough_Color_GetData. -- Done
+					 5) MFG_MST_Rough_Color_Save. -- Done
+					 6) MFG_MST_Rough_Clarity_Save. -- Done
+					 7) MFG_MST_Rough_Clarity_GetData. -- Done
+					 8) MFG_TRN_Stock_SAVE. -- Done
+					 9) MFG_TRN_Rough_Cut_SAVE. -- Done
+					10) MFG_TRN_Prediction_GetData. -- Done
+					11) MFG_TRN_Department_Transfer_Save. -- Done
+					12) MFG_TRN_Department_TransferCnf_Save. -- Done
+					13) MFG_TRN_Department_TransferCnf_GetData. -- Done
+					14) MFG_TRN_PredictionView_GetData.	-- Done	 
+
+		Table Name : MFG_TRN_Stock -- Done	 
+					 MFG_TRN_Process_Receive -- Done	 
+					 MFG_TRN_Process_Issue -- Done	 
+					 MFG_TRN_Prediction -- Done	 
+					 MFG_TRN_MixSplit -- Done	 
+					 MFG_MST_Rough_Color -- Done	 
+					 MFG_MST_Rough_Clarity -- Done	 
+					 MFG_TRN_Department_Transfer -- Done	 
+					
+------------------------------------------------
+
+Date : 06/04/2020
+Praful :   		
+		 SP Name   : int to bigint form_id convert
+
+					1) TRN_BT_Detail_Save - Done
+					2) TRN_BT_Master_Save - Done
+					3) TRN_Company_MemoIssue_Save - Done
+					4) TRN_Demand_Master_Save - Done
+					5) TRN_MemoIssue_Save - Done
+					6) TRN_MemoRecieve_Save - Done
+					7) TRN_Price_Activation_Save - Done
+					8) TRN_Price_Import_Save - Done
+					9) TRN_Price_Import_Detail_Save - Done
+					10) TRN_Purchase_Master_Save - Done
+					11) TRN_Purchase_Detail_Save - Done
+					12) TRN_Purchase_Return_Master_Save - Done
+					13) TRN_Purchase_Return_Detail_Save - Done
+					14) TRN_Sale_Invoice_Master_Save - Done
+					15) TRN_Sale_Invoice_Detail_Save - Done
+					16) TRN_SaleReturn_Master_Save - Done
+					17) TRN_SaleReturn_Detail_Save - Done
+					18) TRN_WeightLoss_Save - Done
+					19) MFG_TRN_Rough_Cut_SAVE  - Done
+					20) MFG_TRN_Stock_SAVE  - Done
+					21) MFG_TRN_RoughCut_MixSplit_SAVE  - Done
+					22) MFG_TRN_Department_Transfer_Save  - Done
+					23) MFG_TRN_Employee_Performance_Save  - Done
+					24) MFG_TRN_Rough_Stock_SAVE  - Done
+					25) MFG_TRN_Kapan_SAVE  - Done 
+					26) MFG_TRN_Rough_MixSplit_SAVE  - Done
+					27) MFG_TRN_Process_Receive_Save  - Done
+					28) MFG_TRN_Process_WeightLoss_Save  - Done
+					29) MFG_TRN_Process_Issue_Save  - Done
+					30) MFG_TRN_Process_Receive_Save - PRD ID Update added  - Done
+					31) MFG_TRN_LotSplit_Receive_Save  - Done
+					32) MFG_TRN_Stock_GetData	 - Done			
+
+
+		Table Name :	-- Form_id Added in Table
+						1) TRN_BT_Detail - Done
+						2) TRN_BT_Master - Done
+						3) TRN_StockHistory - Done
+						4) TRN_Stock - Done
+						5) TRN_Company_MemoIssue_Receipt - Done
+						6) TRN_Demand_Noting - Done
+						7) TRN_MemoIssue_Receipt - Done
+						8) TRN_Weight_Loss - Done
+						9) MST_RateDetail_Log - Done
+						10) MST_Rate_Log - Done
+						11) MST_RateDetail - Done
+						12) MST_Rate - Done
+						13) TRN_Purchase - Done
+						14) TRN_PurchaseDetails - Done
+						15) TRN_PurchaseReturn - Done
+						16) TRN_PurchaseReturn_Detail - Done
+						17) TRN_SaleInvoice - Done
+						18) TRN_SaleInvoice_Detail - Done
+						19) TRN_SaleReturn - Done
+						20) TRN_SaleReturn_Detail - Done
+						21) MFG_TRN_Rough_Cut - Done
+						22) MFG_TRN_Stock - Done
+						23) MFG_TRN_Rough_MixSplit - Done
+						24) MFG_TRN_Department_Transfer - Done
+						25) MFG_TRN_Employee_Performance - Done
+						26) MFG_TRN_Rough_Stock - Done`
+						27) MFG_TRN_Kapan_Create - Done
+						28) MFG_TRN_Prediction - Done 
+						29) MFG_TRN_Process_Receive - Done
+						30) MFG_TRN_Process_Issue - Done
+						31) MFG_TRN_Stock - Added - charni_prd_id - Done
+						32) MFG_MST_Quality - New Table - Done
+
+------------------------------------------------
+
+Date : 07/05/2020
+Praful :   		
+		 SP Name   : 1) MFG_MST_Quality_Save - Done
+					 2) MFG_MST_Quality_GetData - Done
+					 3) MFG_TRN_Process_Receive_Split_Save - Done
+
+		Table	   : 1) MFG_TRN_Prediction, MFG_TRN_Mix_Split And MFG_TRN_Process_Receive - New Column Added - quality_id int - Done
+
+------------------------------------------------
+
+Date : 05/06/2020
+Amit :   Form Name : 1) FrmPriceOptimization. - Done
+					 2) All Form try catch implement. - Done
+					 3) pivot class. - Done
+					 4) FrmMFGCutWiseView,MfgCutWiseView. - Done
+					 5) FrmMfgQualityMaster,MfgQualityMaster,MfgQuality_MasterProperty.  - Done
+
+		SP Name   : 1) MFG_TRN_Process_Receive_Split_GetData. - Done
+					2) MFG_TRN_Cut_View_List_GetData. - Done				 
+
+        Table	   : 1) MFG_MST_quality. - Done
+
+------------------------------------------------
+
+Date : 08-Jun-20
+Mayur : Form Name 1) FrmDemandNoting
+		
+		Table Name : TRN_Demand_Noting Add new 2 column (purity_id, cutting) - Done
+		SP Name : TRN_Demand_Master_Save.
+------------------------------------------------
+
+Date : 17/06/2020
+Amit :   Form Name : 1) FrmProcessRecieveReport,MFGProcessReceive,FillCombo. - Done
+					 2) FrmMFGProcessIssue,MFGProcessIssue,MFGProcessIssueProperty. - Done
+					 3) FrmMFGSawableRecieve,MFGSawableRecieve,MFGSawableReceiveProperty. - Done
+					 4) FrmMFGProcessReceiveWithSplit,MFGProcessReceiveProperty, - Done
+					 5) FrmMFGProcessChipiyoRecieve. - Done
+					 6) FrmMFGLotSplit,MFGLotSplit,MFGLotSplitProperty. - Done
+					 7) FrmMFGProcessWeightLossRecieve,MFGProcessWeightLossRecieve,MFGProcessWeightLossRecieve_Property. - Done
+					 8)FrmMfgDepartmentTransferConfirm,SProc. - Done
+					 9) MfgCutWiseView,FrmMFGCutWiseView. - Done
+					 
+		 SP Name   : 1) MST_Get_All_Data.(Update) - Done
+					 2) MFG_TRN_Process_Issue_Save.	- Done 
+					 3) MFG_TRN_Sawable_Receive_Save. - Done
+					 4) MFG_TRN_Process_Issue_Save. - Done 
+					 5)	MFG_TRN_Process_Receive_Split_Save. - Done 
+					 6) MFG_TRN_Process_Receive_Save. - Done
+					 7) MFG_TRN_LotSplit_Receive_Save.  - Done
+					 8) MFG_TRN_Process_WeightLoss_Save.  - Done
+					 9) MFG_RPT_Shadewise_View. - Done
+					 			 
+
+------------------------------------------------
+
+Date : 24-Jun-20
+Amit : Form Name 1) MfgCutWiseView,FrmMfgCutWiseView,Sproc. - Done
+		
+		SP Name : 1) MFG_TRN_Kapan_GetAllData. - Done
+		          2) MFG_TRN_RoughCut_GetKapanWise. - Done
+				  3) MFG_TRN_Process_WeightLoss_Receive_List_GetData. - Done
+------------------------------------------------
+
+Date : 26-Jun-20
+Amit : Form Name 1) FrmMFGProcessChipiyoRecieve,MFGProcessChipiyoRecieve. - Done
+				 2) All Mfg Form update add kapan combobox. - Done
+				 3) Global. - Done
+	   SP Name : 1) MFG_TRN_CurrentProcess_Check. - Done
+	   			 2) MFG_TRN_Issue_Process_GetData. - Done
+				 
+------------------------------------------------
+
+Date : 26-Jun-20
+Amit : Form Name 1) FrmProcessRecieveReport. - Done
+				 2) Global,Sproc.  - Done
+	   SP Name : 1) RPT_RoughCut_GetKapanWise.  -Done
+------------------------------------------------
+
+Date : 27-Jun-20
+PRAFUL
+TABLE - Generate_Number	-		MFG_Process_Issue	0	NULL	NULL - Done
+								MFG_Process_Receive	0	NULL	NULL -- Add this value in Table  - Done
+		MFG_TRN_Process_Issue   - union_id Added in field - Done
+		MFG_TRN_Process_Receive - union_id Added in field- Done
+
+								-- Union ID Added
+SP Name - MFG_TRN_Process_Issue_Save - Done
+		- MFG_TRN_Process_WeightLoss_Save - Done
+		- MFG_TRN_LotSplit_Receive_Save - Done
+		- MFG_TRN_Sawable_Receive_Save - Done
+		- MFG_TRN_Process_Receive_Save - Done
+		- MFG_TRN_Process_Receive_Split_Save - Done
+		- MFG_TRN_Janged_issue_BalGetdata - Done
+		- MFG_TRN_Janged_Receive_Save - Done
+		
+		 sr_no Add Field in Issue And Rec Table - Done
+
+		 MST_Party
+			MST_Ledger Both Table is_outside bit Field Added - Done
+
+			MST_Ledger_Save - is_outside added  - Done
+			MST_Ledger_GetData - Done
+			MST_Party_Save - is_outside added - Done
+			MST_Party_GetData - Done
+
+
+Table Name - TRN_SaleInvoice_Detail - Rej_Carat And Rej_Percentage Add field - Done
+
+------------------------------------------------
+
+Date : 26-Jun-20
+Amit : Form Name 1) FrmMFGProcessIssue,MFGProcessIssue.- Done
+				 2) Sproc.- Done
+	   SP Name : 1) MFG_TRN_ChipyoRate_GetData. - Done
+------------------------------------------------
+Date : 29-Jun-20
+Amit : Form Name 1) FrmMFGJangedIssue,MFGJangedIssue,MFGJangedIssue_Property.- Done
+				 2) FrmMFGCutWiseView,MfgCutWiseView,Sproc.- Done
+				 3) Sproc.- Done
+	   SP Name : 1) MFG_TRN_Process_Receive_Split_GetData. - Done
+				 2) MFG_TRN_Cut_View_List_GetData. - Done
+				 3) MFG_RPT_Shadewise_View. - Done
+				 4) MFG_TRN_Process_Receive_Split_Save. - Done
+				 5) MFG_TRN_Janged_Issue_Save. - Done
+				 6) MFG_TRN_Janged_Issue_GetData. - Done
+				 7) MFG_TRN_Janged_Issue_GetDetailsData. - Done
+
+--------------------------------------------------------------
+Date : 11-Jul-20
+Amit : Form Name 1) FrmMFGRoughSale,MFGRoughSale,MFGRough_SaleProperty. - Done
+				 2) Sproc. - Done
+				 
+	   SP Name : 1) MFG_TRN_RoughSale_GetDetailData. - Done
+				 2) MFG_TRN_RoughSale_GetData. - Done
+				 3) MFG_TRN_RoughSale_Save. - Done
+				 
+	 Table Name: 1) MFG_TRN_RoughSale. -- Done
+				 2) MFG_TRN_Kapan_Create. Add column is_sale  -- Done
+				 3) Generate_Number- Add Parameter Invoice_No -- Done
+--------------------------------------------------------------
+Date : 16-Jul-20
+Amit : Form Name 1) FrmMFGMixSplitView,MFGMixSplit,MFGMixSplitProperty. -- Done
+				 2) Sproc. -- Done
+				 3) FrmMFGKapanCreate,MFGKapanCreate,MFGKapanCreateProperty. -- Done
+				 4) FrmMFGRoughSale,MFGRoughSale,MFGRough_SaleProperty.  -- Done
+				 
+	   SP Name : 1) MFG_TRN_MixSplit_ViewData. -- Done
+				 2) MFG_TRN_Lot_GetCutWise.	 -- Done
+				 3) MFG_TRN_Kapan_SAVE.--Add parameter type -- Done
+				 4) MFG_TRN_RoughSale_Save.--Add parameter sr_no -- Done
+				 	 
+	  Table    : 1) MFG_TRN_Kapan_Create-- add column 'type'  -- Done
+				 2) MFG_TRN_RoughSale-- Add column 'sr_no' -- Done
+-------------------------------------------------------------------------.
+
+Date : 04-Jul-20
+
+SP Name : 
+1) RPT_MFG_ProcessIssue_Pending_Summary -- Done
+2) MFG_TRN_Process_Name_Get -- Done
+3) MFG_TRN_Process_Outstanding -- Done
+
+--------------------------------------------------------------
+Date : 08-Jul-20
+
+Table Name : 
+	1) MFG_TRN_Department_Transfer -- Done
+	Add new Colum from_process_id , to_process_id, flag = 0 (default) -- Done
+
+
+
+SP Name : 
+	1) MFG_TRN_Department_Transfer_Save -- Done
+	2) MFG_TRN_Stock_SAVE -- Done
+	3) MFG_TRN_Department_TransferCnf_GetData -- Done
+	4) MFG_TRN_Kapan_GetAllData -- Done
+	5) MFG_TRN_RoughCut_GetKapanWise -- Done
+	6) RPT_MFG_Trn_Sawable_GetData -- Done
+	7) MFG_RPT_Shadewise_View -- Done
+
+
+	--------------------------------------------------------------
+
+Date : 22-Jul-20 Praful
+
+Table - 1) MFG_TRN_MixSplit - 
+			prediction_id bigint Field Added - Done
+			form_id bigint Field Added  - Done
+			union_id bigint Field Added  - Done
+			type bigint Field Added  - Done
+
+		2) MFG_TRN_Process_Issue
+			quality_id int field Name Added - Done
+		3) Generate_Number
+			MFG_Mix_Split 0 - Done
+		4) MFG_TRN_Department_Transfer  - Done
+			from_branch_id Field Added - Done
+			to_branch_id Field Added- Done
+
+SP - - MFG_TRN_Process_Issue_Save - Done
+
+			quality_id  add this SP
+	 - MFG_TRN_Janged_issue_BalGetdata - Done
+	 - MFG_TRN_LotSplit_Receive_Save- Done
+	 - MFG_TRN_Process_Receive_Split_Save - Done
+	 - MFG_TRN_Sawable_Receive_Save - Done
+	 - MFG_TRN_LiveStock_GetData- Done
+	 - MFG_TRN_Lot_Mix_Split_Save -  Done
+	 - MFG_TRN_Balance_Carat_Update-  Done
+	 - MFG_TRN_Stock_Mix_Save - Done
+	 - MFG_TRN_Process_Receive_Save - Done
+
+	 -	MFG_TRN_LotSplit_Receive_Save- Done
+	 -	MFG_TRN_Process_Receive_Split_Save- Done
+	 -	MFG_TRN_Sawable_Receive_Save- Done
+
+	 -	MFG_TRN_LiveStock_Split_GetData - Done
+	 -	MFG_TRN_Lot_Split_Save - Done
+
+	 -	MFG_TRN_Process_Outstanding- Done
+	 -	RPT_MFG_ProcessIssue_Pending_Summary- Done
+	 -  RPT_MFG_ProcessRecieve_Summary- Done
+	 -  MFG_RPT_Shadewise_View- Done
+	 -  RPT_MFG_Trn_Sawable_GetData- Done
+
+	 - MFG_TRN_LiveStock_GetData - Done
+	 - MFG_TRN_AssortFinalRate_GetData - Done
+
+
+--------------------------------------------------------------
+Date : 29-JUL-20 Mayur
+
+Sp Name : MFG_TRN_OSRate_GetData - Done
+
+--------------------------------------------------------------
+Date : 30-JUL-20 Praful
+
+Table : MFG_TRN_PROCESS_ISSUE  - Done
+		MFG_TRN_PROCESS_RECEIVE  - Done
+				Field Name Added is_auto int default 0 - Done
+
+SP Name : MFG_TRN_Issue_GetData - Done
+		  MFG_TRN_Stock_Mix_Save - Done
+		  MFG_TRN_Lot_Mix_Split_Save - Done
+		  MFG_TRN_Balance_Carat_Update  - Done
+
+------------------------------------------------------------
+
+Sales Module
+
+Table - TRN_MemoIssue_Receipt
+			term_days int - Done
+			discount_per decimal(18, 3) - Done
+			discount Replace discount_amt decimal(18, 3) - Done
+			net_amount decimal(18, 3) - Done
+			
+SP -		TRN_MemoSearch_GetData - Done
+			TRN_Memo_GetDetail - Done
+			TRN_MemoIssue_Save - Done
+			TRN_MemoRecieve_Save - Done
+
+--------------------------------------------------------------
+Date : 01-Aug-20 Praful
+
+		1) Type Normal / Rejection but change dropdown in both so Rejection and Normal are come. - Done
+		2) Process Chipyo Receive Caption Replace Process Receive (Chipyo) - Done
+		3) Process Receive (Assort) Caption Replace Process Receive (Chipyo Final) - Done
+		4) Janged Receive Caption Replace Janged Receive (Assort) - Done
+	
+--------------------------------------------------------------
+Date : 02-Aug-20 Praful
+
+
+SP Name : 1) RPT_MFG_JangedRecieve_Summary - Done
+		  2) RPT_MFG_JangedIssue_Summary - Done
+		  3) MFG_TRN_Janged_Issue_Save - Done
+		  4) MFG_TRN_Janged_Receive_Save - Done
+		  5) MFG_TRN_Janged_issue_BalGetdata - Done
+		  6) MFG_TRN_Assort_Receive_Fill_GetData - Done
+
+--------------------------------------------------------------
+Date : 04-Aug-20 Praful
+
+
+Table	-	1) MFG_Transaction_Lock - Done
+SP Name	-	1) MFG_Transaction_Lock_GetData - Done
+			2) MFG_Transaction_Lock_Delete - Done
+			3) MFG_Transaction_Open_ValSaveN - Done
+			4) MFG_TRN_Process_Receive_GetData - Done
+			5) MFG_TRN_Cut_View_List_GetData - Done
+			6) MFG_TRN_Process_Receive_Split_GetData - Done
+			7) TRN_PartyPurchasePayment_GetData - Done
+			8) TRN_PartyPurchase_Payment_GetData - Done
+			9) TRN_PartyPurchasePayment_Save - Done
+			10) TRN_PartyPurchasePayment_Remark_Save - Done
+
+--------------------------------------------------------------
+Date : 07-Aug-20 Amit
+
+Form Name-  1) FrmIncomeEntry,IncomeEntryMaster. -- Done
+            2) ExpenseEntryMaster,FrmExpenseEntry,ExpenseEntry_MasterProperty,SProc. -- Done
+			3) PurchaseInward. -- Done
+			4) FrmGReportViewerBand. -- Done
+			5) FrmMFGProcessReceiveJanged,MFGJangedReceive,MFGJangedReceive_Property. -- Done
+			6) FrmMemoRecieve. -- Done
+			7) FrmMixSplit. -- Done
+			8) BrokerMaster,Global. -- Done
+
+Table-      1) MST_Broker.Add column company,branch,location -- Done
+
+
+--------------------------------------------------------------
+Date : 17-Aug-20 Praful
+
+FrmExpenseEntry - Bank Name Added - Done
+
+ 	SP Name = 1) TRN_Expence_Entry_Save - Done
+			  2) MST_Expence_Entry_GetData - Done
+			  3) RPT_Daily_Ledger_Getdata - Done
+
+	SP Name = 1) MST_RateType_GetData - Done
+			  2) MST_RateType_Save - Done
+			  3) MST_CurrencyRate_GetData - Done 
+
+	Table Name = 1) MST_RateType - Done
+
+					- Location  Added - Done
+					- from_currency Added - Done
+					- to_curruncy Added - Done
+
+--------------------------------------------------------------
+Date : 18-Aug-20 Praful
+
+	SP Name - 1) TRN_Sale_PartyPayment_GetData - Done
+			  2) TRN_Income_Entry_Save - Done
+			  3) TRN_Expence_Entry_Save - Done
+
+--------------------------------------------------------------
+Date : 20-Aug-20 Amit
+
+Form Name-  1) FrmAssortsMaster,AssortMaster,Assort_MasterProperty. - Done
+            2) LocationMaster,SPROC. - Done
+
+SP Name-   1) MST_LocationWiseCompanyBranch. - Done
+		   2) MST_AssortStock_Save. - Done
+		   3) MST_Assort_Save. - Done
+
+--------------------------------------------------------------
+Date : 21-Aug-20 Amit
+
+Form Name-  1) FrmBankToCashTransfer,ExpenseEntryMaster,ExpenseEntry_MasterProperty. - Done		
+
+SP Name-   1) TRN_Ledger_Balance_GetData. - Done
+		   2) TRN_BankToCash_Save. - Done
+--------------------------------------------------------------
+
+Date : 21-Aug-20 Praful
+
+TABLE -	  1) MFG_MST_Loan_Master - Done
+		  2) MFG_MST_Loan_Master_History - Done
+
+SP Name - 1) RPT_Get_Old_PRice_Data - Done
+		  2  MST_HR_Employee_Master_GetByParam - Done
+		  3) MFG_MST_Loan_Master_GetData - Done
+		  4) MFG_MST_Loan_Master_Delete - Done
+		  5) MFG_MST_Loan_Master_Save - Done
+
+--------------------------------------------------------------
+
+Date : 24-Aug-20 Praful
+
+
+SP Name -	1) MFG_MST_Loan_Master_GetData- Done
+			2) MST_Ledger_GetData- Done
+			3) MFG_MST_Loan_Master_Save- Done
+			4) TRN_Income_Entry_Save- Done
+			5) TRN_Expence_Entry_Save- Done
+			6) TRN_PartyPayment_Save- Done
+			7) vw_Credit_Debit_Ledger- Done
+			8) RPT_CreditDebit_Ledger- Done
+			9) RPT_PartyPayment_OS- Done
+			10) TRN_BankToCash_Save - Done
+			11) TRN_Brokerage_Save - Done
+			12) Advance_Amount ,advance_date,Type Column in Loan_Entry - Done
+			
+Changes -	1) Opening Closing Date show in ledger Report - Done
+			2) All Report Greter then from date not to Date - Done
+			3) Cash To Bank Form Ledger Filter in Only Cash/Bank Ledger And Validation Take in From And To Type Compulsary - Done
+
+--------------------------------------------------------------
+Date : 21-Aug-20 Amit
+
+Form Name-  1) FrmBranchTransferPayment,ExpenseEntryMaster,ExpenseEntry_MasterProperty,Sproc. - Done
+			2) FrmIncomeEntry,FrmExpenseEntry. Put refresh button on both screen - Done
+			3) FrmSaleInvoice,SaleInvoice,Sproc. - Done
+
+SP Name-   1) TRN_Branch_Transfer_Payment_Save. - Done
+		   2) TRN_Branch_Transfer_Payable. - Done
+		   3) RPT_TRN_MixSplit_GetData. - Done
+		   4) TRN_Search_SaleMemo_GetData. - Done
+
+TABLE -    1) TRN_Expense_Entry. Add two field bt_id,bt_detail_id - Done
+--------------------------------------------------------------
+Date : 21-Aug-20 Amit
+
+Form Name-  1) FrmGReportViewerBand. - Done
+			2) FrmPartyPayable,PartyPayable,Party_PayableProperty. - Done
+			3) FrmMappingMaster. - Done
+
+SP Name-   1) TRN_PartyPayment_GetData. - Done
+		   2) TRN_PartyPayment_Save. - Done
+
+TABLE -    1) TRN_SaleInvoice - Add two column term_discount_amount,term_advance_amount. - Done
+
+--------------------------------------------------------------
+
+Date : 31-Aug-20 Praful
+
+SP Name -	 Advance_Amount ,advance_date,Type Column in Loan_Entry - Done
+			1) MFG_MST_Loan_Master_Save - Done
+			2) MFG_MST_Loan_Master_GetData - Done
+			3) TRN_MixSplit_Save - Insert Statement Type Added  - Done
+			4) TRN_MixSplit_ViewData - Done
+			5) RPT_Daily_Ledger_Getdata - Done
+			6) RPT_CreditDebit_Ledger - Done
+			7) RPT_PartyPayment_OS - Done
+			
+Table -		1) TRN_MIX_SPLIT - Type Field Added - Done
+--------------------------------------------------------------
+Date : 06-Sep-20 Amit
+
+Form Name- 1) FrmPriceImport,PriceImport,Sproc. - Done
+			
+SP Name-   1) TRN_Price_Import_GetPriceData. - Done		   
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+Date : 07-Sep-20 Praful
+			
+SP Name-   1) MFG_MST_Loan_Master_Save - Live in 8 PM - Done
+		   2) TRN_Expence_Entry_Save - Done
+		   3) TRN_Income_Entry_Save - Done
+		   4) TRN_BankToCash_Save - Done
+		   5) TRN_Branch_Transfer_Payment_Save - Done
+		   6) TRN_Brokerage_Save - Done
+		   7) TRN_PartyPayment_Save - Done
+			
+Table - 1) TRNIncome Entry - form_id field Added bigint - Done
+		2) TRNExpenceEntry - form_id field Added bigint - Done
+			- FrmIncomeEntry And FrmExpenseEntry Form Id Added - Done
+			- Exchange Rate Update in expence and Income in Live after 7 o'clock - Done
+
+--------------------------------------------------------------
+Date : 10-Sep-20 Amit
+
+Form Name- 1) FrmBrokeragePayable,BrokeragePayable,Brokerage_PayableProperty. - Done
+			
+SP Name-   1) TRN_Brokerage_Save. - Done
+
+--------------------------------------------------------------
+Date : 16-Sep-20 Praful
+
+Table -	   1) Mst_Ledger - Field Added - actual_opening_balance decimal(18,3) - Done
+	       2) TRN_StockHistory - Field Added - carat_plus decimal(18,3) - Done
+
+SP Name-   1) MST_Ledger_Save  - Done
+		   2) MST_Ledger_GetData  - Done
+		   3) RPT_TRN_MixSplit_GetData  - Done
+		   4) RPT_MixSplit_Format1  - Done
+		   5) TRN_MixSplit_SAVE  - Done
+		   6) TRN_MixSplit_SAVE_Mix  - Done
+		   7) TRN_MixSplit_SAVE_Split  - Done
+--------------------------------------------------------------
+Date : 16-Sep-20 Amit
+
+Form Name- 1) FrmPriceImport,PriceImport,Sproc.
+		   2) FrmMFGMultiEployeeReturn,MultiEmployeeReturn,MFGProcessWeightLossRecieve_Property.
+		   3) Global,
+		   4) FRMMemoRecieve.
+SP Name-   1) TRN_Price_Import_GetOldData.
+		   2) MFG_TRN_MultiEmployee_Return_Save.
+		   
+ TABLE-    1) MFG_TRN_Process_Recieve Add Column machine_id.
+		   2) 1) MFG_TRN_Process_Issue Add Column machine_id
+--------------------------------------------------------------
+Date : 24-Sep-20 praful
+
+SP Name-   1) TRN_MixSplit_Save. - Done
+		   2) TRN_MixSplit_SAVE_Mix. - Done
+		   3) TRN_MixSplit_SAVE_Split. - Done
+		   
+ TABLE-    1) TRN_MixSplit - Field Added - slip_no varchar(50) - Done
+--------------------------------------------------------------
+Date : 02-Oct-20 Mayur
+
+SP Name -      MST_CostRate_Generate
+		       UTL_Daily_AgingSave -- Done
+
+Job Name - Daily_AgingSave -- Done
+
+Create New Table
+
+		1) MST_Aging -- Done
+		2) MST_Aging_Save -- Done
+		3) MST_Price_Setting -- Done
+		4) TRN_Get_OLD_Price_Date -- Done
+---------------------------------------------------------------
+Date :  03-Oct-20 Amit
+
+Form Name :1) FrmMfgPriceSettingMaster,MfgPriceSettingMaster, MfgPrice_SettingProperty. -- Done
+
+Sp Name   :1) MFG_MST_Price_Setting_GetData. -- Done
+		   2) MFG_MST_Price_Setting_Save. -- Done
+---------------------------------------------------------------
+Date :  03-Oct-20 Amit
+
+Form Name :1) FrmAgeingMasterImport,AgeingMasterImport, Ageing_MasterProperty. -- Done
+
+Sp Name   :1) MST_Ageing_Import_GetData. -- Done
+		   2) MST_Ageing_Import_Save. -- Done
+		   3) MST_Ageing_Import_DeleteData. -- Done
+
+
+---------------------------------------------------------------
+Date :  12-NOV-20 Praful
+
+Table - 1) MST_Assort_Mapping - Done
+		2) Generate_Number - Add - Done
+				- Assort_Mapping
+SP - 1) TRN_Assort_Mapping_Save - Done
+     2) TRN_Assort_Mapping_Search_GetData - Done
+     3) TRN_Assort_Mapping_GetDetailsData - Done
+---------------------------------------------------------------
+Date :  24-Nov-20 Amit
+
+Form Name :1) FrmPriceImport,RateTypeMaster. - Done
+		   2) FrmMappingMaster,Sproc. - Done
+Sp Name   :1) MST_Rate_DateWise_GetData. - Done
+		   2) MST_MappingShow_GetData. - Done
+		   
+---------------------------------------------------------------
+Date :  05-Dec-20 Amit
+
+Form Name :1) FrmMemoRecieve,Memo_RecieveProperty,MemoRecieve. - Done
+		   
+Table     :1) Trn_Stock Add field 'loss_pcs'. - Done
+		   2) TRN_MemoIssue_Receipt Add field loss_pcs,loss_carat,loss_rate,loss_amount. - Done
+
+Sp Name   :1) TRN_Memo_IssRec_Outstanding. - Done
+		   2) TRN_MemoRecieve_Save. - Done
+		   3) TRN_MemoIss_GetCarat. - Done
+		   
+---------------------------------------------------------------
+
+Date :  07-Dec-20 Praful
+
+Form Name : 1) FrmSaleInvoice
+			2) FrmSaleReturn
+			3) FrmMemoIssue
+			4) FrmMemoRecieve
+			5) FrmWeightLoss
+			6) FrmPurchaseReturn
+			7) FrmPurchaseInward
+			8) FrmBranchTransfer - Discuss With Mayur / Siddhartha Pending
+			9) FrmOpeningStock - Discuss With Mayur / Siddhartha Pending
+
+Function Name : 1) MixSplit.cs
+				2) PurchaseInward.cs
+				3) PurchaseReturn.cs
+				4) SaleInvoice.cs
+				5) SaleReturn.cs
+				6) WeightLoss.cs
+
+Table     : 1) TRN_Stock
+				Field Add - sub_sieve_id int - Done
+			2) TRN_StockHistory
+				Field Add - sub_sieve_id int - Done
+			3) TRN_Weight_Loss
+				Field Add - sub_sieve_id int - Done
+
+Sp Name   :1) TRN_MixSplit_GetLiveData - Done
+		   2) TRN_MixSplit_GetAllData - Done
+		   3) TRN_Sale_Invoice_Detail_Save
+		   4) TRN_SaleReturn_Detail_Save
+		   5) TRN_MemoIssue_Save
+		   6) TRN_MemoRecieve_Save
+		   7) TRN_WeightLoss_Save
+		   8) TRN_WeightLoss_GetData
+		   9) TRN_Purchase_Return_Detail_Save
+		   10) TRN_Purchase_Detail_Save		
+		   11) TRN_MixSplit_SieveWise_SAVE
+		   12) TRN_MixSplit_SieveWise_SAVE_Mix
+		   13) TRN_MixSplit_SieveWise_SAVE_Split
+		   14) TRN_BT_GetStockCarat - @Sub_Sieve_id Add
+		   15) TRN_Sale_Invoice_Delete
+		   16) MST_Get_LetestPrice - Discuss With Mayur / Siddhartha Pending
+		   
+
+Discuss - Mix Split Report Detail Wise is Common or Seprate Report Create in Sub Sieve Wise. - Discuss With Mayur / Siddhartha
+
+---------------------------------------------------------------
+
+Date :  17-Jan-21 Praful
+
+Sp Name   : 1) TRN_Demand_Master_Save - done
+			2) TRN_Demand_GetDetailsData - done
+			3) TRN_Demand_GetData - done
+			4) TRN_RateWiseAssort_GetData - done
+---------------------------------------------------------------
+
+Date :  03-Feb-21 Amit
+
+Sp Name   : 1) TRN_Demand_Master_Save - done
+			2) TRN_Demand_GetDetailsData - done
+			
+Table     : 1) suggest_assort_id,suggest_assort_name column added in 'Trn_Demand_Noting' - done
+
+---------------------------------------------------------------
+
+Date :  22-03-21 Praful
+
+Table Name   : 1) MST_Rough_Broker - done
+			   2) MST_Rough_Party - done
+			   3) MST_Rough_Type - Data Insert - done
+
+Sp Name   : 1) MST_Rough_Party_Save - done
+			2) MST_Rough_Party_Update - done
+			3) MST_Rough_Party_GetData - done
+			4) MST_Rough_Broker_GetData - done
+			5) MST_Rough_Broker_Update - done
+			6) MST_Rough_Broker_Save - done
+
+---------------------------------------------------------------
+
+Date :  23-03-21 Praful
+
+Sp Name   : 1) TRN_RoughSaleStatus_GetData - done
+			2) TRN_RoughSale_Status_Save - done
+
+---------------------------------------------------------------
+
+Date :  02-04-21 Praful
+
+Sp Name   : 1) TRN_Inspection_Receive_Delete - done
+			2) TRN_Inspection_Issue_Delete - done
+
+---------------------------------------------------------------
+
+Date :  03-04-21 Praful
+
+Form Name : 1) FRMMFGTrn_MixSplit - Invoice ID Added - done
+			2) Rough Sale Entry - Rough Sale Due Date and Carat Less Validation
+
+Table Name   : 1) TRN_MixSplit - 
+					from_invoice_id bigint  - done
+
+Sp Name   :	   1) TRN_MixSplit_SAVE_Mix  - done
+			   2) TRN_MixSplit_SAVE  - done
+			   3) TRN_MixSplit_SAVE_Split  - done
+			   TRN_PartyPayment_Save
+
+---------------------------------------------------------------
+
+Date :  10-05-21 Praful
+Sp Name   :	   1) TRN_PartyPayment_Save  - done
+			   2) TRN_Demand_Master_Save  - done
+			   3) TRN_Demand_GetDetailsData  - done
+			   4) TRN_Demand_GetData  - done
+
+---------------------------------------------------------------
+
+Date :  19-05-21 Praful
+			   
+Sp Name   : 1) MST_Avak_Javak_Party_Save  - done
+			2) MST_Avak_Javak_PartyGroup_GetData  - done
+			3) MST_Avak_Javak_Party_GetData  - done
+			4) MST_Avak_Javak_Party_Delete  - done
+			5) MST_Avak_Javak_Cash_Transfer_Save  - done
+			6) MST_Avak_Javak_CashTransfer_GetData  - done
+			7) MST_Avak_Javak_CashTransfer_Delete  - done
+
+			

@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{94B2EA76-769D-407E-BE3D-33FD2FCAE36A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Data.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Office.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.RichEdit.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Utils.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraBars.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraEditors.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraGrid.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraPrinting.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BeginTranConnection.cs" />
+    <Compile Include="DBConnections.cs" />
+    <Compile Include="FillCombo.cs" />
+    <Compile Include="FormEvents.cs" />
+    <Compile Include="FormPer.cs" />
+    <Compile Include="frmErrorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmErrorList.Designer.cs">
+      <DependentUpon>frmErrorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionClasses\Account\AvakJavakCashTransfer.cs" />
+    <Compile Include="FunctionClasses\Account\BrokeragePayable.cs" />
+    <Compile Include="FunctionClasses\Account\ExpenseEntryMaster.cs" />
+    <Compile Include="FunctionClasses\Account\IncomeEntryMaster.cs" />
+    <Compile Include="FunctionClasses\Account\PartyPayable.cs" />
+    <Compile Include="FunctionClasses\Master\AccountTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\AgeingMasterImport.cs" />
+    <Compile Include="FunctionClasses\Master\AssortLocationMaster.cs" />
+    <Compile Include="FunctionClasses\Master\AssortMaster.cs" />
+    <Compile Include="FunctionClasses\Master\BankMaster.cs" />
+    <Compile Include="FunctionClasses\Master\BranchMaster.cs" />
+    <Compile Include="FunctionClasses\Master\BrokerMaster.cs" />
+    <Compile Include="FunctionClasses\Master\CategoryMaster.cs" />
+    <Compile Include="FunctionClasses\Master\CityMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ClarityMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ColorGroupMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ColorMaster.cs" />
+    <Compile Include="FunctionClasses\Master\CompanyMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ConfigFormMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ConfigPartyBrokerMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ConfigPermission.cs" />
+    <Compile Include="FunctionClasses\Master\ConfigProcessMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ConfigRoleMaster.cs" />
+    <Compile Include="FunctionClasses\Master\CountryMaster.cs" />
+    <Compile Include="FunctionClasses\Master\CurrencyMaster.cs" />
+    <Compile Include="FunctionClasses\Master\CurrencyRateMaster.cs" />
+    <Compile Include="FunctionClasses\Master\CutMaster.cs" />
+    <Compile Include="FunctionClasses\Master\DeliveryTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\DepartmentMaster.cs" />
+    <Compile Include="FunctionClasses\Master\DesignationMaster.cs" />
+    <Compile Include="FunctionClasses\Master\EmployeeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\FinancialYearMaster.cs" />
+    <Compile Include="FunctionClasses\Master\FlourescenceMaster.cs" />
+    <Compile Include="FunctionClasses\Master\FormMaster.cs" />
+    <Compile Include="FunctionClasses\Master\HR\HREmployeeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\HR\HRFactoryMaster.cs" />
+    <Compile Include="FunctionClasses\Master\HR\HRManagerMaster.cs" />
+    <Compile Include="FunctionClasses\Master\HR\HRRateMaster.cs" />
+    <Compile Include="FunctionClasses\Master\IDProofMaster.cs" />
+    <Compile Include="FunctionClasses\Master\LedgerMaster.cs" />
+    <Compile Include="FunctionClasses\Master\LocationMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MappingMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MenuHeaderMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ConfigMenuPermissionMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\BenchMarkMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\FrmMfgRussianDailyEntry.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgArticleMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgDepartmentAgeingMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgDepartmentProcessMappingMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgDepartmentShiftMappingMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgDepartmentTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgDepartmentWiseSalary.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgEmployeeWagesBenchMark.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgGroupMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MFGInsuranceMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgJangedSieve.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgLotingSieve.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgLottingOutRateManual.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgMachineDetailEntry.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgMachineItemCompanyMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgMachineItemMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgMachineItemUsedEntry.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgMachineMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgMachinePartyMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgMachineTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgMiscellaneousEntryMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgPacketTypeWages.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MFGPartyLockMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgPriceSettingMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgProcessAgeingMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgProcessGroupMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MFGProcessMapping.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MFGProcessRateMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgProcessSequenceMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgProductionCapacityMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgProfitCenterMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgPurityGroupMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgQualityMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgReasonMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgReturnStatus.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgRoughClarityMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgRoughColorMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgRoughCutTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgRoughSieve.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgRoughTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgSawTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgShiftMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgSightTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgSourceMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgStatusMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgSubProcessMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgTeamMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgTensionTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgWagesRateMaster.cs" />
+    <Compile Include="FunctionClasses\Master\MFG\MfgWeightValidationMaster.cs" />
+    <Compile Include="FunctionClasses\Master\AvakJavakPartyMaster.cs" />
+    <Compile Include="FunctionClasses\Master\PacketTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\PartyMaster.cs" />
+    <Compile Include="FunctionClasses\Master\PreferenceMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ProcessMaster.cs" />
+    <Compile Include="FunctionClasses\Master\RateDetailMaster.cs" />
+    <Compile Include="FunctionClasses\Master\RateMaster.cs" />
+    <Compile Include="FunctionClasses\Master\RateTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\RoughBrokerMaster.cs" />
+    <Compile Include="FunctionClasses\Master\RoughPartyMaster.cs" />
+    <Compile Include="FunctionClasses\Master\ShapeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\SieveMaster.cs" />
+    <Compile Include="FunctionClasses\Master\StateMaster.cs" />
+    <Compile Include="FunctionClasses\Master\StatusMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\MfgItemMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\MfgSubItemMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\MfgItemTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\MfgPartyGroupMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\MfgUnitMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\MstBillManagerMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\StoreDepartmentMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\StoreDivisionMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\StoreManagerMaster.cs" />
+    <Compile Include="FunctionClasses\Master\Store\StorePartyMaster.cs" />
+    <Compile Include="FunctionClasses\Master\SubProcessRateMaster.cs" />
+    <Compile Include="FunctionClasses\Master\SubSieveMaster.cs" />
+    <Compile Include="FunctionClasses\Master\TransactonTypeMaster.cs" />
+    <Compile Include="FunctionClasses\Master\UserMaster.cs" />
+    <Compile Include="FunctionClasses\Rejection\MFGRejectionInternalTransfer.cs" />
+    <Compile Include="FunctionClasses\Rejection\MFGRejectionKapanTransfer.cs" />
+    <Compile Include="FunctionClasses\Rejection\MfgRejectionPurityMaster.cs" />
+    <Compile Include="FunctionClasses\Rejection\MfgRejectionRateEntry.cs" />
+    <Compile Include="FunctionClasses\Rejection\MFGRejectionSale.cs" />
+    <Compile Include="FunctionClasses\Rejection\MFGRejectionSectionMaster.cs" />
+    <Compile Include="FunctionClasses\Rejection\MFGRejectionToMakableTransfer.cs" />
+    <Compile Include="FunctionClasses\Rejection\MfgRejectionTransfer.cs" />
+    <Compile Include="FunctionClasses\Rejection\MFGRejectionTransferManual.cs" />
+    <Compile Include="FunctionClasses\Rejection\MFGRoughSalePaymentEntry.cs" />
+    <Compile Include="FunctionClasses\Rejection\MFGRoughStockEntry.cs" />
+    <Compile Include="FunctionClasses\Rejection\MFGRoughToMFGTransfer.cs" />
+    <Compile Include="FunctionClasses\Rejection\RejectionBrokerMaster.cs" />
+    <Compile Include="FunctionClasses\Rejection\RejectionPartyMaster.cs" />
+    <Compile Include="FunctionClasses\Report\NewReportMaster.cs" />
+    <Compile Include="FunctionClasses\Report\ProfitLossReport.cs" />
+    <Compile Include="FunctionClasses\Report\ReportParams.cs" />
+    <Compile Include="FunctionClasses\Transaction\AssortMappingMaster.cs" />
+    <Compile Include="FunctionClasses\Transaction\BranchTransfer.cs" />
+    <Compile Include="FunctionClasses\Transaction\BranchTransferConfirm.cs" />
+    <Compile Include="FunctionClasses\Transaction\CompanyMemoIssueReceipt.cs" />
+    <Compile Include="FunctionClasses\Transaction\CostPriceImport.cs" />
+    <Compile Include="FunctionClasses\Transaction\DemandNoting.cs" />
+    <Compile Include="FunctionClasses\Transaction\HR\HREmployeeCommissionPayable.cs" />
+    <Compile Include="FunctionClasses\Transaction\HR\HRTransactionEntry.cs" />
+    <Compile Include="FunctionClasses\Transaction\InspectionIssue.cs" />
+    <Compile Include="FunctionClasses\Transaction\InspectionRecieve.cs" />
+    <Compile Include="FunctionClasses\Transaction\MemoInvoice.cs" />
+    <Compile Include="FunctionClasses\Transaction\MemoRecieve.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGAssortFinalLotting.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGAssortFinalOK.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGAssortFinalOkSizeWise.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGAssortFirst.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGAssortmentPurchase.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGAssortSecond.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGAssortShading.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGBoilingNo.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGBoilIssue.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGBoilRecieve.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGCostingManual.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGCutCreate.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MfgCutWiseView.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGDepartmentCosting.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGDepartmentTransfer.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MfgDepartmentTransferConfirm.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGEmployeeHistoryView.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGEmployeeTarget.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGFactoryMix.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGFactorySplit.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGHistoryView.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGJangedIssue.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGJangedIsuRecAssortment.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGJangedReceive.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGJangedReturn.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGJangedReturnManual.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGKapanTransferManual.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGLiveStock.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGLoanEntry.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGLotSplit.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGLottingDepartment.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGMixSplit.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGPataLotEntry.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGProcessIssue.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGProcessReceive.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGProcessWeightLossRecieve.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGPurchase.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGKapanCreate.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGRejectionAvgRate.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGRejectionJangedIssue.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGRejectionLossEntry.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGRoughRateUpdate.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGRoughSale.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGRoughSaleStatus.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGSawableRecieve.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGShineReceive.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGTargetConfirm.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGTranscationLock.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MFGTRNEstimation.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MfgTrnPredictionView.cs" />
+    <Compile Include="FunctionClasses\Transaction\MFG\MultiEmployeeReturn.cs" />
+    <Compile Include="FunctionClasses\Transaction\MixSplit.cs" />
+    <Compile Include="FunctionClasses\Transaction\OpeningStock.cs" />
+    <Compile Include="FunctionClasses\Transaction\PriceActivation.cs" />
+    <Compile Include="FunctionClasses\Transaction\PurchaseInward.cs" />
+    <Compile Include="FunctionClasses\Transaction\PurchaseReturn.cs" />
+    <Compile Include="FunctionClasses\Transaction\SaleInvoice.cs" />
+    <Compile Include="FunctionClasses\Transaction\SaleReturn.cs" />
+    <Compile Include="FunctionClasses\Transaction\SalesStock.cs" />
+    <Compile Include="FunctionClasses\Transaction\SingleSetting.cs" />
+    <Compile Include="FunctionClasses\Transaction\Store\StoreDepartmentIssue.cs" />
+    <Compile Include="FunctionClasses\Transaction\Store\StoreDepartmentReturn.cs" />
+    <Compile Include="FunctionClasses\Transaction\Store\StorePurchase.cs" />
+    <Compile Include="FunctionClasses\Transaction\Store\StoreSales.cs" />
+    <Compile Include="FunctionClasses\Transaction\Store\StoreSalesReturn.cs" />
+    <Compile Include="FunctionClasses\Transaction\SuggestPriceImport.cs" />
+    <Compile Include="FunctionClasses\Transaction\WeightLoss.cs" />
+    <Compile Include="FunctionClasses\Utility\EmailSendUtility.cs" />
+    <Compile Include="FunctionClasses\Utility\Login.cs" />
+    <Compile Include="FunctionClasses\Utility\Settings.cs" />
+    <Compile Include="FunctionClasses\Utility\UserAuthentication.cs" />
+    <Compile Include="General.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="ListError.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyClasses\Account\AvakJavakCashTransferProperty.cs" />
+    <Compile Include="PropertyClasses\Account\Brokerage_PayableProperty.cs" />
+    <Compile Include="PropertyClasses\Account\ExpenseEntry_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Account\IncomeEntry_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Account\Party_PayableProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Ageing_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\AssortLocation_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Assort_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\AvakJavakParty_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Bank_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Branch_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Broker_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Category_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\City_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Clarity_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\ColorGroup_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Color_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Company_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\ConfigForm_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\ConfigPartyBroker_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\ConfigProcess_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\ConfigRole_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Config_PermissionMasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Country_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\CurrencyRate_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Currency_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Cut_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\DeliveryTypeMasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Department_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Designation_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Employee_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Financial_Year_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Fluorescence_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Form_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\HR\HREmployee_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\HR\HRFactory_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\HR\HRManager_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\HR\HRRate_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\IDProof_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Ledger_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Location_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Mapping_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MenuHeader_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\ConfigMenuPermission_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\BenchMark_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\FrmMfgRussianDailyEntryProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\InsuranceRate_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgArticle_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgDepartmentAgeing_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgDepartmentProcessMapping_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgDepartmentShiftMapping_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgDepartmentType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgDepartmentWiseSalaryProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgEmployeeWagesBenchMark_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgGroup_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgJanged_SieveProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgLoting_SieveProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgLottingOutRateManual_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgMachineCompany_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgMachineDetailEntryProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgMachineItemUsedEntryProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgMachineItem_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgMachineParty_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgMachineType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgMachine_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgMfgPacketTypeWagesProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgMiscellaneousEntryMasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgPrice_SettingProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgProcessAgeing_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgProcessGroup_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgProcessSequence_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgProductionCapacity_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgProfitCenter_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgPurityGroup_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgQuality_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgReason_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgReturn_StatusProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgRoughClarity_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgRoughColor_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgRoughCutType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgRoughType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgRough_SieveProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgSawType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgShift_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgSightType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgSource_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgStatus_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgSubProcess_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgTeam_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgTensionType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgWagesRate_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\MfgWeightValidation_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\PartyLock_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\MFG\ProcessRate_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\PacketType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Party_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Preference_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Process_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\RateDetail_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\RateType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Rate_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\RoughBroker_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\RoughParty_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Shape_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Sieve_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\State_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\MfgSubItem_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\MfgItemType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\MfgItem_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\MfgPartyGroup_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\MfgUnit_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\MstBillManagerMasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\StoreDepartment_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\StoreDivision_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\StoreManagerMasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Store\StorePartyMasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\SubProcessRate_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\SubSieve_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\TransactionType_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\User_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Master\Status_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejectionInternalTransferProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejectionKapanTransferProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejectionPurity_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejectionRateEntryProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejectionSaleProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejectionSale_PaymentProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejectionSection_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejectionToMakable_TransferProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejectionTransferManualProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRejection_TransferProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRoughStock_EntryProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\MFGRoughToMFG_TransferProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\RejectionBroker_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Rejection\RejectionParty_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Report\New_Report_MasterProperty.cs" />
+    <Compile Include="PropertyClasses\Report\ReportParams_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\AssortMappingMasterProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\BranchTransfer_ConfirmProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Branch_TransferProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Company_MemoIssueReceiptProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\CostPrice_ImportProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Demand_NotingProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\HR\HREmployeeCommissionPayableProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\HR\HRTransactionEntryProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Inspection_IssueProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Inspection_RecieveProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Memo_InvoiceProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Memo_RecieveProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGAssortFinal_LottingProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGAssortFinal_OKProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGAssortmentPurchaseProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGAssort_FirstProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGBoilIssueProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGCostingManualProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGCutCreateProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGDepartmentCostingProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGDepartmentTransferProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGEmployeeTarget.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGFactoryMix_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGHistory_ViewProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGJangedIssue_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGJangedReceive_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGJangedReturn_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGKapanTransfer_ManualProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGLoanEntry_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGLotSplitProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGLottingDepartmentProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGMixSplitProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGPataLotEntryProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGProcessIssueProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGProcessReceiveProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGProcessWeightLossRecieve_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGRejectionAvgRateProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGRejectionJangedIssueProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGRejectionLoss_EntryProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGRoughSaleStatus_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGRough_SaleProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGSawableReceiveProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGShineReceiveProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGTransactionLockProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGTRNEstimation_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFG_Boiling_NoProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFG_Factory_SplitProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFG_PurchaseProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGKapanCreateProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFGTargetConfirmProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MFG\MFG_RoughRate_UpdateProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\MixSplitProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\OpeningStockProperty.cs" />
+    <Compile Include="FunctionClasses\Transaction\PriceImport.cs" />
+    <Compile Include="PropertyClasses\Transaction\PriceImportProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Price_ActivationProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\PurchaseReturn_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\Purchase_InwardProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\SaleReturn_Property.cs" />
+    <Compile Include="PropertyClasses\Transaction\Sales_InvoiceProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Sales_StockProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\SingleSettingProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Store\StorePartyOpeningProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Store\Store_DepartmentIssueProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Store\Store_DepartmentReturnProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Store\Store_PurchaseProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Store\Store_SalesProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Store\Store_SalesReturnProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\SuggestPrice_ImportProperty.cs" />
+    <Compile Include="PropertyClasses\Transaction\Weight_LossProperty.cs" />
+    <Compile Include="PropertyClasses\Utility\Settings_Property.cs" />
+    <Compile Include="PropertyClasses\Utility\UserAuthenticationProperty.cs" />
+    <Compile Include="TPV\RPT.cs" />
+    <Compile Include="TPV\SProc.cs" />
+    <Compile Include="TPV\Table.cs" />
+    <Compile Include="Validation.cs" />
+    <Compile Include="WebDBConnection.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControls\CustomControls.csproj">
+      <Project>{cd7e2e72-7eca-4a16-a5bf-197234c8e715}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\DLL.csproj">
+      <Project>{061fcb78-b9e1-4667-ae59-957885de4ce4}</Project>
+      <Name>DLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmErrorList.resx">
+      <DependentUpon>frmErrorList.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

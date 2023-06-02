@@ -1,0 +1,1278 @@
+﻿New Point
+
+1) CHIPIYO PROCESS SAVE KARA PACHI o/S CARAT REFRESH NATHI THATA - Praful - Done
+2) PROCESS RECEIVE ASSORT CHANGE TO PROCESS REC CHIPIYO - Mayur - Done
+3) ASSORTS = CHIPIYO FINAL-Mayur - Done
+4) PROCESS RECEIVE REPORT ADD NEW COLUM (tYPE) REJ/NORMAL - Done
+5) PROCESS RECEIVE ASSORTS  CARAT + SET (wEIGHT DIFF. DO YOU WANT TO SAVE) - Done
+6) lost focus lod master process/sub process) -- Amit Done
+7) process receive assort (final) issue process = 'CHIPIYO' to change --- Done
+8) sieve wise order by process receive assort (final) order by - Praful - Done
+9) Avg Rate - Amit Done
+10) Cut wise View Group wise -- Mayur Done
+11) Cut wise View (Chipiyo+rejection) Display Data Final Chipiyo Process - Mayur -- Done
+12) Chipiyo process save then save rate/amount (Avg.) - Done
+13) Process Issue Chipiyo final (Rate Auto)--Done
+14) Stock Table PRD ID update to evrey receive screen - praful - Done 
+15) Janged Isuue / Receive Screen New Development - Praful / Amit Done
+16) Process Receive Pending Reports - Done
+
+17) Opening/Closing f
+18) Department Transfer Full Details - Done
+19) Department Confirm Full Details - Done
+20) Stock Reports - Amit  - Done
+21) Barcode Print Department wise 
+22) History Save in MFG  - Done
+23) Old All Report Check in Kapan No  - Done
+
+24) MFG All Report Kapan_no column add in all report in Live - Done by praful bhai
+25) MFG Cut_wise_View total in grid foter - 
+26) Mst Quality group disply in form side - Check Done
+
+
+1. Shade Master New Create in Issue Screen.
+2. Purity And Sieve and Amount and rate in Process issue Screen-ok
+3. Department Transfer New Screen Develop And Validation
+	- Lot ID Dropdown put insept transfer screen-ok
+	- Department Not same in transfer time-ok
+	- Department Transfer Time Get Balance Carat in Stock Table-ok
+	- lot not in outstanding-ok
+	- Update Department MFG_TRN_Stock Field Name - Department_id Update-ok
+	- Manager Save to discuss with Bapu
+	- Manager Update in Stock Table
+	- MFG_TRN_Stock insert Latest_Dept_id - Done
+	- MFG_Department_Transfer insert latest_PRD_ID - Field_Name - PRD_ID - Done
+	- After Polish Receive With Split then after Department Transfer
+	- Manager ID add in Stock and Department_transfer - Done
+	- All PRD_ID Insert stock to department TRansfer Table - Done
+	
+4. Department Transfer Screen Verify
+5. Lot Mix Split
+	- Add New Entry in Prediction
+	- Old Lot Balance Carat is Zero
+	- if User Change old Price then update in new Lot
+	- Mix Split table add new column PRD id
+	- Add New Entry Mix Split
+	- Mix Split Screen Discuss with siddharth
+
+6. Issue,Receive Table Rough Cut ID,kapan_no Added	- Done
+7. filter wise display in clarity Normal or Rejection - Done
+
+
+
+
+================================================================================
+Date : 17-Sep-20 Discussion with Siddhartha
+
+1) Janged Accept new screen development (Packet_typefor_Wages 1 & 5 (Master )) Update in stock table  - Done
+2) Add new column process issue/receive (Packet_typefor_Wages)
+3) MFG_TRN_Stock add new column (Packet_typefor_Wages) - Done
+
+4) Department confirm screen display jandged no or data - Done
+5) if janged confirm then update rec. date & time in janged table - Done
+6) Add new SR. No in two table. - Done
+
+ 
+To Check
+
+1) Rejection entry check in process issue/receive table and also check in stock table balance or rej
+2) Process Recive janged to check (receive change to split lot)
+3) Lot Split
+
+================================================================================
+
+Date : 22-Sep-20 Discussion with Siddhartha
+
+ 1) Shine Issue / Receive = Reports - Mayur = Done
+ 2) Janged / issue / receive / department confirm = Done
+ 3) Process wise validation in issue screen (lot ID) lalubhai / jayeshbhai(Balance carat != 0) - Done
+ 4) Mix split screen cut name blank in grid - Done
+ 5) Factory split / factory mix - two screen - Done
+ 6) Weges rate master - Praful - Done
+ 7) Janged return normal screen - Done
+ 8) Packet Type Wages Master - Done
+ 9) Kapan & Cut Auto (after barcode scan) (lalubhai Screen Kapan and Cut Disable) - Amit = Done
+ 10) Lalu bhai all screen lot ID not display Amit - Done
+ 11) Issue proces name in lable - Done Amit
+ 
+
+ Pending Points ..
+
+ 1) LS Issue Receive - Screen - Pending
+ 2) Mix = 10 barcode issue, receive ma 3 carat
+ 3) Two kapan mixing
+ 4) Only mixing lot not issue Screen
+ 5) Process receive o/s pcs not display all return screen - Amit
+ 6) Weges reports Mayur discussion with lalu bhai
+ 7) Same Departmet not transfer (janged issue)
+ 8) History Screen Development - Done
+
+
+ Date : 07-Oct-20
+
+1) PCS not enter digit - Done
+2) Carat not enter +,-  - Done
+3) Lookup Edit not enter Double time  - Done
+4) Polish Receive Report not Zero Clarity Display - Done
+5) Loting Details Reports -- Done
+
+Date : 08-Oct-20
+
+1) Sawable Receive Screen Cut Number Type end message are display. - Done
+2) Sawable Receive Screen Auto Filter Process - Done
+3) Barcode Print Option - Done
+ 
+ Date : 10-Oct-20
+
+ 1) Department Confirm Report Party Added in Report - Done
+ 2) Manager_Name And Employee Name Display in Combo Company Branch Location Department Wise Display in Combo. - Done
+ 3) Employee Master Display in Company Branch Location Department Wise Data. - Done
+ 4) Department Confirm Screen Wages Type Added in Combo box and select then selected data in Wages type in Grid. - Done
+ 5) Multi Employee Return Screen Employee Name Default Come that lot is issue - Lot ID Scan Time like Process,Sub Process come after lot Id Scan. -- Done
+ 6) Department Confirm Chages - Done
+ 7) Process issue Emp in grid - Done
+ 8) Emp Master Changes - Done
+ 9) Mapping Master - Done
+ 11) Weges Rate Master Process, Sub Process add -- Done
+ 12) Re-soing pcs, Re-soing carat, Brackage pcs, brackage carat in 4P -- Done
+ 13) Live Stock Summary (Process, Kapan, Cut) -- Praful
+ 15) Validation Department transfer (After Emp Issue/Rec.) -- Amit
+ 16) is_estimation add in process master -- Done
+
+
+ 17) Update / Delete Entry -- Amit
+ 18) Wages Salary Reports -- Praful
+ 19) 4P Salary Reports
+ 20) Weight Machine Integration
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+END ================================================================================
+
+
+SP Name	-	1) TRN_PurchaseNo_GetData. -- Done
+			2) TRN_Expence_Entry_Save - Add parameter purchase_no -- Done
+			3) TRN_Income_Entry_GetData. Add parameter invoice_no -- Done
+			4) TRN_PurchaseNo_GetData. Add parameter purchase_no -- Done
+			5) MFG_TRN_Janged_Receive_Save. Add parameter loss_carat,carat_plus,loss_count - Done
+			6) MST_Party_Save.Add location in ledger query -- Done
+			7) MST_Broker_GetData. -- Done
+			8) MST_Broker_Save. -- Done
+
+--------------------------------------------------------------
+Date : 05-Aug-20 Amit
+
+Form Name-  1) FrmMfgRoughClarityMaster,MfgRoughClarityMaster,MfgRoughClarity_MasterProperty. - Done
+            2) FrmMFGProcessReceiveJanged,MFGJangedReceive,SProc. - Done
+
+Table	-	1) MFG_MST_Rough_Clarity - Add one column sequence_no - Done
+
+SP Name	-	1) MFG_MST_Rough_Clarity_GetData - Add parameter sequence no  - Done
+			2) MFG_MST_Rough_Clarity_Save - Add parameter sequence no - Done
+			3) MFG_TRN_Janged_issue_IDGetdata. - Done
+			4) MFG_TRN_Janged_Receive_Save. Add parameter prev_janged_id - Done
+
+
+--------------------------------------------------------------
+Date : 15-Aug-20 Praful
+
+		--- New Added 
+		Table - GENERATE NUMBER -  History_Union_Id	0	NULL	NULL - Done
+
+		1) MFG_TRN_Kapan_SAVE - Done
+		2) MFG_TRN_Lot_GetData - Done
+		3) MFG_TRN_Department_TransferCnf_GetData - Done
+
+--------------------------------------------------------------
+Date : 17-Aug-20 Amit
+
+Form Name-  1) FrmMFGProcessReceiveWithSplit,MFGProcessReceive,MFGProcessReceiveProperty. - Done
+            2) FrmMFGCutCreate,MFGCutCreate,MFGCutCreateProperty. - Done
+			3) FrmMFGDepartmentTransfer,MFGDepartmentTransfer,MFGDepartmentTransferProperty. - Done
+			4) FrmMFGJangedIssue,MFGJangedIssue,MFGJangedIssue_Property. - Done
+			5) FrmMFGLotSplit,MFGLotSplit,MFGLotSplitProperty. - Done
+			6) FrmMFGMixSplit,MFGLotSplit,MFGMixSplitProperty. - Done
+			7) FrmMFGProcessChipiyoRecieve,MFGProcessReceive,MFGProcessReceiveProperty, - Done
+			8) FrmMFGProcessIssue,MFGProcessIssue,MFGProcessIssueProperty. - Done
+			9) FrmMFGProcessReceive,MFGProcessReceive,MFGProcessReceiveProperty. - Done
+		   10) FrmMFGProcessReceiveJanged,MFGJangedReceive,MFGJangedReceive_Property. - Done
+		   11) FrmMFGProcessWeightLossRecieve,MFGProcessWeightLossRecieve,MFGProcessWeightLossRecieve_Property. - Done
+		   12) FrmMFGSawableRecieve,MFGSawableRecieve,MFGSawableReceiveProperty. - Done
+
+
+Table	-	1) MFG_TRN_History - Add one column carat_plus. - Done
+			2) History_Union_Id 	0	NULL	NULL - Done
+
+
+SP Name	-	1) MFG_TRN_Process_Receive_Split_Save. - Done
+			2) MFG_TRN_Rough_Cut_SAVE. - Done
+			3) MFG_TRN_Stock_SAVE. - Done
+			4) MFG_TRN_Department_Transfer_Save. - Done
+			5) MFG_TRN_Janged_Issue_Save. - Done
+			6) MFG_TRN_LotSplit_Receive_Save - Done
+			7) MFG_TRN_Stock_Mix_Save. - Done
+			8) MFG_TRN_Stock_Mix_Save - Done
+			9) MFG_TRN_Process_Receive_Save.- Done
+		   10) MFG_TRN_Process_Issue_Save.- Done
+		   11) MFG_TRN_Process_Receive_Save.- Done
+		   12) MFG_TRN_Janged_Receive_Save.- Done
+		   13) MFG_TRN_Process_WeightLoss_Save- Done
+		   14) MFG_TRN_Sawable_Receive_Save.- Done	
+
+--------------------------------------------------------------
+Date : 18-Aug-20 Praful
+
+SP Name	-	1) MST_CurrencyRate_GetData. - Done
+
+
+----------------------------------------------------------------
+
+Date : 15-Aug-20 Amit
+
+Form Name-  1) FrmLedgerMaster,LedgerMaster,Ledger_MasterProperty.  Add sequence_no - Done
+
+SP Name : 1) MST_Ledger_GetData - put sequence_no - Done
+		  2) MST_Ledger_Save - Add parameter sequence_no  - Done
+
+--------------------------------------------------------------
+
+Date : 16-Aug-20 Praful
+
+
+SP Name -	1) MFG_TRN_Cut_View_List_GetData - Done
+			2) MFG_MST_Quality_Save - Done
+			3) MFG_MST_Quality_GetData - Done
+			4) RPT_MFG_ProcessRecieve_Summary - and isnull(procRec.prediction_id,0) <> 0 - Done	
+			5) RPT_MFG_ProcessIssue_Summary - Kapan_no Added - Done
+			6) RPT_MFG_ProcessRecieve_Summary - Kapan_no Added - Done
+			7) RPT_MFG_Department_Transfer_Summary - Kapan_no Added - Done
+			8) RPT_MFG_Department_TransferCnf_Summary - Kapan_no Added - Done
+			9) MFG_IssRet_GetPendingStock - Done
+			10) MFG_RPT_Shadewise_View - Done
+			
+--------------------------------------------------------------
+
+Date : 26-Aug-20 Praful			
+
+SP Name -	1) MFG_RPT_Shadewise_View - Done
+			2) MFG_MST_Rough_Clarity_GetData - Done
+			3) MFG_TRN_Process_Receive_Split_GetData - Done
+			4) MFG_IssRet_GetPendingStock - Done
+			5) MFG_TRN_Balance_Carat_Update - Done
+			6) MFG_TRN_Stock_Mix_Save - Done
+			7) MFG_TRN_LiveStock_GetData - Done
+			8) MFG_TRN_Stock_Mix_Save - Done
+			9) MFG_TRN_Lot_Mix_Split_Save - Done
+			10) MFG_TRN_Issue_GetData - Done
+			11) MFG_IssRet_GetIssuePendingStock - NEW SP - Done
+
+
+--------------------------------------------------------------
+
+Date : 17-09-20 Praful
+
+Form Name  - FrmMfgPacketTypeWages,MfgPacketTypeWages,MfgMfgPacketTypeWagesProperty - New Form
+
+SP Name -	1) MFG_MST_Packet_Type_Wages_GetData - Done
+			2) MFG_MST_Packet_Type_Wages_Save - Done
+			3) MFG_Trn_Janged_AutoConfirm_Receive - Done
+			4) MFG_TRN_Department_TransferCnf_Save - Done
+			5) MFG_TRN_Janged_Issue_Save - Done
+			6) MFG_TRN_Janged_Receive_Save - Done
+			7) MST_Party_Save - Done
+			8) MST_Party_GetData - Done
+			9) MFG_TRN_Department_TransferCnf_GetData - Done
+
+Table       1) MFG_TRN_IssRec_Janged - Field Name Added - Done
+				janged_srno
+				receive_date
+				receive_time
+				receive_employee_id
+				receive_ip_address
+			2) MFG_TRN_Department_Transfer  - Done
+				janged_srno
+			3) Generate_Number - Done
+				janged_srno 0
+			4) MST_Party - Done
+				is_autoconfirm bit
+
+--------------------------------------------------------------
+
+Date : 25-09-20 Praful
+
+Form_Name - FrmMFGJangedReturn,MFGJangedReturn.cs,MFGJangedReturn_Property.cs - New Create  - Done
+
+Table - 1) MFG_TRN_Stock - Field_Name Added - Done
+			- fac_main_lot_id bigint
+			- is_factory_split	int
+		2) MFG_TRN_Factory_MixSplit - New Table Create - Done
+		3) MFG_Janged_Process_Settings - New Create - Done
+		4) MFG_MST_Wages_Rate - New Create - Done
+
+SP Name	- 1) MFG_IssRet_GetPendingStock - Done
+		  2) MFG_IssRet_GetIssuePendingStock - Done
+		  3) MFG_TRN_Janged_Stock_GetData - Done
+		  4) MFG_TRN_Janged_Issue_Save - Done
+		  5) MFG_TRN_Janged_Return_Save - Done
+		  6) MFG_Janged_Process_Setting_GetData - Done
+		  7) MFG_MST_Wages_Rate_Save - Done
+		  8) MFG_MST_Wages_Rate_GetData - Done
+		  9) MFG_TRN_Janged_Issue_Save - Done
+		  10)MFG_TRN_Janged_Stock_GetData - Done
+		  11)MFG_TRN_Factory_Mix_Save - Done
+
+----------------------------------------------------------------
+
+Date : 26-Sep-20 Amit
+
+Form Name-  1) FrmMFGFactorySplit,MFGFactorySplit,MFG_Factory_SplitProperty. - Done
+
+SP Name : 1) MFG_TRN_Factory_Split_Save.  - Done
+		  2) MFG_LotDetail_GetData. - Done
+		  3) RPT_MFG_Factory_MixSplit. - Done
+--------------------------------------------------------------
+Date : 28-Sep-20 Mayur
+
+
+Form Name-  1) FrmMFGCutWiseView - Done
+SP Name : MFG_ShineIssue_GetData - Done
+
+--------------------------------------------------------------
+Date :  MFG_TRN_Process_Outstanding - Done
+
+--------------------------------------------------------------
+Date : 02-Oct-20 Praful
+
+SP Name :	1) MFG_Janged_Process_Settings - Data insert - Done
+			2) MFG_TRN_Janged_Issue_Save - Done
+			3) MFG_TRN_RoughCut_GetStockData - Done
+			4) MFG_TRN_MultiEmployee_Return_Save - Done
+			5) MFG_TRN_Janged_Stock_GetData - Done
+			6) MFG_TRN_Janged_Return_Save - Done
+			7) MFG_TRN_Janged_Receive_Save - Done
+			8) MFG_TRN_Janged_Issue_GetData - Done
+			9) TRN_LotID_Print_GetData - Done
+
+Table -		1) MFG_TRN_IssRec_Janged - Field Added - Done
+				lot_id bigint
+				prev_lot_id bigint
+
+
+
+---------------------------------------------------------------
+Date :  02-Oct-20 Mayur
+
+Sp Name :  MFG_ShineIssue_GetData - Done
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+Date :  08-Oct-20 Praful
+
+Table - 1) MFG_MST_Wages_Rate Field Added - rough_sieve_id int  - Done
+		2) MST_Employee Data Type Update - Employee_id bigint - Done
+
+Sp Name :  1) MFG_MST_Wages_Rate_GetData  - Done
+		   2) MFG_MST_Wages_Rate_Save  - Done
+
+---------------------------------------------------------------
+Date :  02-Oct-20 Amit
+Sp Name : 
+		  1) MFG_TRN_Department_Transfer_Save. - Done
+		  2) MFG_TRN_Factory_Mix_Save. - Done
+		  3) MFG_TRN_Factory_Split_Save. - Done
+		  4) MFG_TRN_Janged_Issue_Save. - Done
+		  5) MFG_TRN_Janged_Receive_Save. - Done
+		  6) MFG_TRN_Janged_Return_Save. - Done
+		  7) MFG_TRN_Kapan_SAVE. - Done
+		  8) MFG_TRN_Lot_Mix_Split_Save. - Done
+		  9) MFG_TRN_LotSplit_Receive_Save. - Done
+		 10) MFG_TRN_MultiEmployee_Return_Save. - Done
+		 11) MFG_TRN_Process_Issue_Save. - Done
+		 12) MFG_TRN_Process_Receive_Save. - Done
+		 13) MFG_TRN_Process_Receive_Split_Save. - Done
+		 14) MFG_TRN_Process_WeightLoss_Save. - Done
+		 15) MFG_TRN_Sawable_Receive_Save. - Done
+		 16) MFG_TRN_Stock_Mix_Save. - Done
+		 17) MFG_TRN_Stock_SAVE. - Done
+---------------------------------------------------------------
+Date :  09-Oct-20 Amit
+Form  - 1) FrmMFGMixSplit,MFGMixSplitProperty,MFGLotSplit. - Done
+		2) FrmMfgLiveStock,MFGLiveStock,Sproc. - Done
+
+Table - 1) MFG_TRN_Stock Field Added - lot_no replace of lot_name varchar - Done
+		
+
+Sp Name :  1) MFG_TRN_Lot_Mix_Split_Save - Done
+		   2) MFG_TRN_CutWise_SrNo_GetData  - Done
+		   3) MFG_TRN_Live_Stock. - Done
+
+---------------------------------------------------------------
+Date :  10-Oct-20 Praful
+
+Sp Name :   1) MFG_TRN_Sarin_GetData - Done
+			2) MFG_TRN_Sarin_Estimation_Save - Done
+			3) MFG_IssRet_GetDeptPendingStock - Done
+			4) MFG_TRN_LiveStock_GetData - Done
+			5) MFG_TRN_RoughCut_GetStockData - Done
+			6) MFG_TRN_Department_Transfer_Save - Done
+---------------------------------------------------------------
+Date :  10-Oct-20 Amit
+Form  - 1) FrmMfgSubProcessMaster,MfgSubProcessMaster,MFGLotSplit. - Done
+		2) FrmMFGMultiEployeeReturn,MFGProcessReceive  - Done
+		3) FrmEmployeeMaster,EmployeeMaster,Employee_MasterProperty.  - Done
+
+Table - 1) MFG_MST_Sub_Process Field Added - process_group_id - Done
+		2) MST_Employee -Add column aadhar_no - Done
+
+Sp Name :  1) MFG_MST_SubProcess_GetData. - Done
+		   2) MFG_MST_SubProcess_Save. - Done
+		   3) MFG_TRN_IssueEmp_GetData. - Done
+		   4) MST_Employee_GetData. - Done
+		   5) MST_Employee_Save. - Done
+		   
+---------------------------------------------------------------------------------------
+
+Date :  03-Oct-20 Amit
+
+Form Name :1) FrmAgeingMasterImport,AgeingMasterImport, Ageing_MasterProperty. -- Done
+
+Sp Name   :1) MST_Ageing_Import_GetData. -- Done
+		   2) MST_Ageing_Import_Save. -- Done
+		   3) MST_Ageing_Import_DeleteData. -- Done
+---------------------------------------------------------------
+
+Date : 12-Oct-20
+Sp : MST_Process_GetData -- Done
+
+Table - 1) MFG_TRN_Stock (Add new column = packet_typefor_wages, factory_wages_sieve_id) - Done
+		2) MFG_TRN_Process_Issue (Add new column = packet_typefor_wages, factory_wages_sieve_id) - Done
+		3) MFG_TRN_Process_Receive (Add new column = packet_typefor_wages, factory_wages_sieve_id) - Done
+		4) MFG_TRN_Department_Transfer (Add new column = packet_typefor_wages, factory_wages_sieve_id)  - Done
+		5) MFG_TRN_IssRec_Janged (Add new column = packet_typefor_wages, factory_wages_sieve_id) - Done
+		6) MFG_TRN_History (Add new column = packet_typefor_wages, factory_wages_sieve_id)  - Done
+
+----------------------------------------------------------------
+
+Date :  12-Oct-20 Amit
+
+Form Name :1) FrmMFGProcessIssue,MFGProcessIssue. -- Done
+
+Table     : 1) MST_Employee Add 5Column - reference_by,reference_no,emp_mobile_no,emp_address,joining_date. - Done
+
+Sp Name   :1) MFG_TRN_WagesRate_GetData. -- Done
+		   2) MST_Employee_Save. -- Done
+		   3) MST_Employee_GetData. -- Done
+
+----------------------------------------------------------------
+
+Date :  12-Oct-20 Praful
+
+Sp Name   : 1) MFG_MST_Wages_Rate_GetData -- Done
+			2) MST_Get_All_Data -- Done
+			3) MFG_TRN_Department_TransferCnf_GetData -- Done
+			4) MFG_TRN_Department_TransferCnf_Save -- Done
+			5) MST_Employee_GetData -- Done
+			6) MFG_MST_RoughSieve_GetData -- Done
+			7) MFG_TRN_Department_Transfer_Save -- Done
+			8) MFG_TRN_Process_Issue_Save -- Done
+			9) MFG_TRN_Factory_Mix_Save -- Done
+			10) MFG_TRN_Factory_Split_Save -- Done
+			11) MFG_TRN_Janged_Issue_Save -- Done
+			12) MFG_TRN_Janged_Receive_Save -- Done
+			13) MFG_TRN_Janged_Return_Save -- Done
+			14) MFG_TRN_Lot_Mix_Split_Save -- Done
+			15) MFG_TRN_LotSplit_Receive_Save -- Done
+			16) MFG_TRN_Lotting_Mix_Issue_Save -- Done
+			17) MFG_TRN_MultiEmployee_Return_Save -- Done
+			18) MFG_TRN_Process_Receive_Save -- Done
+			19) MFG_TRN_Process_Receive_Split_Save -- Done
+			20) MFG_TRN_Process_WeightLoss_Save -- Done
+			21) MFG_TRN_Sawable_Receive_Save -- Done
+			22) MFG_TRN_Stock_Mix_Save -- Done
+
+----------------------------------------------------------------
+
+Date :  12-Oct-20 Amit
+
+Form Name :1) FrmMfgProcessMappingMaster,MFGProcessMapping,MfgDepartmentProcessMapping_MasterProperty. - Done
+
+Table     :1) MFG_MST_Process_Mapping. -- New Table  - Done
+
+Sp Name   :1) MFG_MST_Process_Mapping_GetData. - Done
+		   2) MFG_MST_Process_Mapping_Save.	 - Done   
+
+----------------------------------------------------------------
+Date :  12-Oct-20 Amit
+
+Form Name :1) FrmMFGDepartmentTransfer,MFGDepartmentTransfer. - Done
+		   2) FrmMFGMultiEployeeReturn,MFGProcessReceive. - Done
+		   3) FrmProcessMaster,ProcessMaster,Sproc. - Done
+		   4)
+
+Table     :1) MFG_MST_Process_Mapping. -- New Table  - Done
+
+Sp Name   :1) MFG_TRN_Dept_Trf_ISSREC_Check. - Done
+		   2) MFG_TRN_History_View. - Done
+		   3) MST_Process_Save. - Done
+		   4) MST_Process_GetData. - Done
+		   5) MFG_MST_Wages_Rate_Save. - Done
+		   6) MFG_MST_Wages_Rate_GetData. - Done
+		   7) MFG_TRN_PendingLots_GetData. - Done
+		   8) MST_Employee_Without_Manager_GetData. - Done
+
+----------------------------------------------------------------
+Date :  13-Oct-20 Mayur
+
+Table - MFG_TRN_Stock, MFG_TRN_Process_Issue,MFG_TRN_Process_Receive - Add Field  - Done
+			-	resoing_pcs 
+			-	resoing_carat 
+Sp - MFG_TRN_MultiEmployee_Return_Save - Done
+
+
+----------------------------------------------------------------
+Date :  14-Oct-20 Amit
+
+Form Name :1) FrmEmployeeMaster,EmployeeMaster,Employee_MasterProperty. - Done
+		   2) FrmMfgLiveStock. - Done
+		   3) FrmMfgHistoryView,MFGHistoryView. - Done
+
+Table     :1) MFG_TRN_Prediction. Add field active - Done
+		   2) MFG_TRN_History. Add field active - Done
+		   3) MST_Employee. Add field employee_code - Done
+		    
+
+Sp Name   :1) MST_Employee_Save. - Done
+		   2) MST_Employee_GetData. - Done
+		   3) MFG_TRN_Delete_History_View. - Done
+		   4) MFG_TRN_Live_Stock.  add employee,manager - Done
+
+----------------------------------------------------------------
+Date :  15-Oct-20 Praful
+
+Sp Name   : 1) MFG_TRN_WagesRate_GetData - Done
+			2) MFG_TRN_Live_Stock - Done
+			3) MFG_IssRet_GetDeptPendingStock - Done
+			4) MFG_IssRet_GetPendingStock - Done
+			5) MFG_IssRet_GetIssuePendingStock - Done
+			6) MFG_MST_Machine_GetData - Done
+			7) MST_Process_All_GetData - Done
+
+----------------------------------------------------------------
+Date :  14-Oct-20 Amit
+
+Form Name :1) FrmMfgMachineMaster,MfgMachineMaster,MfgMachine_MasterProperty.
+		   2) FrmConfigProcess,ConfigProcessMaster,		   
+
+Table     :1) MFG_MST_Machine. Add field purchase_date,robert_kit_date - Done
+		   2) Config_Process.  Add field sub_process_id - Done
+		   	    
+
+Sp Name   :1) MFG_MST_Machine_GetData. - Done
+		   2) MFG_MST_Machine_Save. - Done
+		   3) MST_Config_Process_Save. - Done
+		   4) MST_Config_Process_GetData. - Done
+		   5) MFG_TRN_LiveStock_GetData.  - Done
+		   6) MFG_TRN_Live_Stock. - Done
+----------------------------------------------------------------
+Date : 21-Oct-20 Mayur
+
+Form Name :1) FrmMfgDepartmentTransferConfirm - Done
+		   2) FrmMFGMultiEployeeReturn - Done
+		   3) FrmConfigProcess  - Done
+
+Class Name : MFGProcessIssue - Done
+
+SP Name : MFG_IssRet_Get_ProcesswiseEmp - Done
+		  MST_Config_Process_Save  - Done
+
+----------------------------------------------------------------
+Date : 28-Oct-20 Amit
+
+Form Name :1) FrmMfgKapanCutMaster,MFGKapanCreate,MFGKapanCreateProperty, MFGCutCreateProperty,MFGCutCreate,Sproc. - Done
+		   2) FrmMFGJangedReturnManual,	MFGJangedReturnManual,MFGJangedReturn_Property. - Done
+		   3) FrmEmployeeSalaryReport,ReportParams_Property,ReportParams. - Done
+		  
+SP Name : MFG_TRN_Janged_Detail. - Done
+		  MFG_TRN_Janged_Outstanding. - Done
+		  MFG_TRN_JangedReturn_Save. - Done
+		  MFG_TRN_JangedStock_Detail. - Done
+		  RPT_MFG_4P_Salary. - Done
+
+Table Name : MFG_TRN_IssRec_Janged. Add field rr_pcs,rr_carat,resoing_pcs,resoing_carat,breakage_pcs,breakage_carat. - Done
+----------------------------------------------------------------
+Date : 03-Nov-20 Amit
+
+Form Name :1) FrmMFGMixSplitLotting,MFGMixSplit,MFGMixSplitProperty,Sproc.	   
+		  
+SP Name :  1) MFG_TRN_Lotting_Many_To_One_Save. - Done
+		   2) MFG_TRN_Lotting_Mix_Save. - Done
+		   3) MFG_TRN_Lotting_Mix_Issue_Save. - Done
+		   4) MFG_TRN_Lotting_Mix_Split_Save. - Done
+		   5) MFG_TRN_Lot_Mix_Split_Save. - Done
+		   6) MFG_IssRet_GetDeptPendingStock. --add rejection_pcs,rejection_carat - Done
+		   7) MST_Get_All_Data. - Done
+
+Table   :  1) MFG_TRN_MixSplit. --Added two column rr_pcs,rr_carat - Done
+
+----------------------------------------------------------------
+Date : 25-Nov-20 Praful
+
+SP Name :  1) MFG_TRN_Lot_Mix_Split_Save. - Done
+		   2) MFG_TRN_Lotting_Mix_Split_Save. - Done
+		   3) MFG_TRN_Live_Stock. - Done
+		   4) MFG_TRN_Delete_History_View. Done
+
+
+----------------------------------------------------------------
+Date : 30-Nov-20 Mayur
+
+SP Name :  1) MFG_TRN_Assort_First_View - Done
+SP Name :  2) MFG_TRN_StockData_Cutwise - Done
+
+----------------------------------------------------------------
+Date : 30-Nov-20 Praful
+
+SP Name :	1) MFG_Price_ImportPurityWise_GetData - Done
+			2) MFG_Price_Import_PurityGetPriceData - Done
+			3) MFG_Price_Import_PurityGetOldData - Done
+			4) MST_Rate_DateWise_Purity_GetData - Done
+			5) MFG__Purity_Price_Import_Save - Done
+			6) MFG_Purity_Price_Import_Detail_Save - Done
+
+
+----------------------------------------------------------------
+Date : 01-Dec-20 Amit
+
+Table     :1) Table MST_Color Add Column type - Done
+		   2) Table  MFG_TRN_Prediction Add Column color_id - Done
+
+
+SP Name :	1) MFG_TRN_AssortFirst_Receive_Save - Done
+			2) MFG_TRN_Assort_First_GetData - Done
+			3) MFG_TRN_Assort_First_View - Done
+			4) MFG_TRN_AssortSecond_Receive_Save - Done
+			5) MFG_TRN_Assort_Second_GetData - Done
+			6) MFG_TRN_Purity_GetRate - Done
+			7) MFG_Color_GetId - Done
+			8) MFG_TRN_Assort_Shading_GetData - Done
+			9) MFG_TRN_AssortShading_Receive_Save - Done
+			10) MFG_TRN_AssortSecond_Receive_Save - Done
+			11) MFG_IssRet_GetDeptPendingStock - Done
+			12) MFG_TRN_Janged_Recieve_Assorting_Save - Done
+			13) MFG_IssRet_GetAssortmentStock - Done
+			14) MFG_IssRet_GetJangedDetail - Done
+			15) MFG_IssRet_GetReturn_JangedData - Done
+
+----------------------------------------------------------------
+Date : 02-Dec-20 Praful
+
+SP Name :	1) MFG_RPT_LSAssort_Final_View - Done
+			2) MFG_TRN_Process_LSAssort_Rec_GetData - Done
+
+----------------------------------------------------------------
+Date : 01-Dec-20 Amit
+Form :	   1)FrmMFGAssortFinalLotting,MFGAssortFinalLotting,MFGAssortFinal_LottingProperty.
+		   2)Sproc,Global.
+
+SP Name :	1) MFG_TRN_Assort_Final_GetData - Done
+			2) MFG_TRN_AssortFinal_Lotting_Save - Done
+----------------------------------------------------------------	
+
+Date : 04-Dec-20 Amit
+
+SP Name : 1) MFG_TRN_AssortFinal_Lotting_Save - Done
+		  2) MFG_TRN_Assort_Rate_GetData - Done
+		  3) MFG_TRN_Purity_GetRate - Done
+		  4) MFG_TRN_Assort_Final_GetData - Done
+		  5) MFG_TRN_Assort_First_CheckEntry - Done
+		  6) MFG_Color_GetId - Done
+		  7) MFG_Purity_GetId - Done
+		  8) MFG_TRN_AssortFinal_Ghat_Save - Done
+		  9) MFG_Assort_GetId - Done
+
+----------------------------------------------------------------	
+
+Date : 04-Dec-20 Amit
+
+	  
+SP Name : 1) MST_Purity_Save - Done		
+		  2) MST_Purity Add color_id field - Done		
+		  3) MST_Purity_GetData - Done		
+
+Form Name : 1) ClarityMaster,FrmClarityMaster,Clarity_MasterProperty - Done		
+
+----------------------------------------------------------------	
+
+Date : 12-Dec-20 Praful
+
+SP Name : 1) MFG_TRN_Assort_Second_GetData - Done
+		  2) MFG_TRN_Assort_Rate_GetData - Done
+		  3) RPT_MFG_TRN_Assortment_Janged - Done
+
+----------------------------------------------------------------	
+
+Date : 16-Dec-20 Praful
+
+SP Name : 1) MFG_TRN_Assort_Final_GetData - Done
+		  2) MST_Assort_GetData - Done
+
+----------------------------------------------------------------	
+
+Date : 16-Dec-20 Amit
+
+Table   : 1) MST_RateDetail_Purity - Add column janged_per_carat. - Done
+
+
+SP Name : 1) MFG_Purity_Price_Import_Detail_Save - Done
+		  2) MFG_TRN_Assort_Final_GetData. - Done
+		  3) MST_Assort_GetData. - Done
+
+----------------------------------------------------------------	
+
+Date : 24-Dec-20 Praful
+
+Table   : 1) MFG_TRN_Purchase_Detail - Done
+				- rough_type_id int
+SP Name : 1) MFG_TRN_Purchase_Detail_SAVE - Done
+		  2) MFG_TRN_Purchase_GetDetailsData - Done
+		  3) MFG_TRN_Purchase_GetData - Done
+		  4) MFG_TRN_Kapan_Mix_GetData - Done
+		  5) MFG_TRN_Rough_Stock_SAVE - Done
+
+----------------------------------------------------------------	
+
+Date : 25-Dec-20 Praful
+
+SP Name : 1) MFG_TRN_RoughCut_GetStockData - Done
+		  2) MFG_IssRet_GetDeptPendingStock - Done
+
+SP Name : 1) MFG_TRN_Janged_Issue_Save - Done
+		  2) MFG_TRN_LotSplit_Receive_Save - Done
+		  3) MFG_TRN_Stock_Mix_Save - Done
+		  4) MFG_TRN_Lot_Mix_Split_Save - Done
+		  5) MFG_TRN_Lotting_Mix_Split_Save - Done
+		  6) MFG_TRN_Process_Receive_Save - Done
+		  7) MFG_TRN_Process_Issue_Save - Done
+		  8) MFG_TRN_Janged_Receive_Save - Done
+		  9) MFG_TRN_Process_Receive_Split_Save - Done
+		  10) MFG_TRN_Sawable_Receive_Save - Done
+		  11) MFG_TRN_Kapan_Mix_Save - Done
+		  12) MFG_TRN_Lot_Split_Save  - Done
+		  13) MFG_TRN_Lotting_Many_To_One_Save - Done
+		  14) MFG_TRN_Lotting_Mix_Save - Done
+		  15) MFG_TRN_Janged_Stock_GetData - Done
+		  16) MFG_TRN_Janged_Return_Save - Done
+		  17) MFG_TRN_Live_Stock - Done
+		  18) MST_Employee_GetData - Done
+
+----------------------------------------------------------------	
+
+Date : 31-Dec-20 Praful
+
+SP Name : 1) MFG_TRN_Assort_Receive_Fill_GetData - Done
+		  2) MFG_TRN_Process_Quality_Rec_GetData - Done
+
+
+----------------------------------------------------------------	
+
+Date : 02-Dec-20 Praful
+
+SP Name : 1) RPT_MFG_Janged_Receive_Report - Done
+		  2) RPT_MFG_Janged_Receive_Report_Summary  - Done
+		  3) MFG_TRN_History_View - Done
+		  4) MFG_TRN_Process_Factory_Issue_Save - Done
+---------------------------------------------------------------
+Date :  02-Jan-21 Amit
+		   
+Table     :1) MFG_TRN_Factory_MixSplit Add field 'from_loss_carat,to_loss_carat,from_breakage_pcs,from_breakage_carat,to_breakage_pcs,to_breakage_carat'  - Done
+		   
+
+Sp Name   :1) MFG_TRN_Factory_Split_Save - Done
+		   2) MFG_TRN_JangedReturn_Stock_GetData - Done
+		   3) MFG_TRN_Janged_Stock_GetData - Done
+		   4) MFG_TRN_Factory_Mix_Save - Done
+		   5) MFG_TRN_Janged_Stock_GetData - Done
+		   
+---------------------------------------------------------------
+Date : 04-Jan-21 Praful
+
+SP Name : 1) MFG_MST_Quality_GetData - Done
+		  2) MFG_MST_Quality_Save - Done
+
+---------------------------------------------------------------
+Date : 06-Jan-21 Praful
+
+SP Name : 1) MFG_TRN_PrevProcess_Seq_GetData - Done
+		  2) MFG_TRN_RoughPurchase_Stock_SAVE - Done
+
+---------------------------------------------------------------
+Date : 07-Jan-21 Praful
+
+SP Name :	1)MFG_TRN_Department_Transfer - Done
+			2)MFG_TRN_Factory_MixSplit - Done
+			3)MFG_TRN_History - Done
+			4)MFG_TRN_IssRec_Janged - Done
+			5)MFG_TRN_IssRec_Janged_Assortment - Done
+			6)MFG_TRN_Kapan_Create - Done
+			7)MFG_TRN_MixSplit - Done
+			8)MFG_TRN_Prediction - Done
+			9)MFG_TRN_Process_Issue - Done
+			10)MFG_TRN_Process_Receive - Done
+			11)MFG_TRN_Rough_Cut - Done
+			12)MFG_TRN_Rough_MixSplit - Done
+			13)MFG_TRN_Stock - Done
+			14)MFG_TRN_Stock_History - Done
+				Field Name Added - lot_srno bigint - Done
+
+---------------------------------------------------------------
+Date : 08-Jan-21 Praful
+
+SP Name :	lot_srNo Added
+				1) MFG_TRN_AssortFinal_Lotting_Save - Done
+				2) MFG_TRN_AssortFirst_Receive_Save - Done
+				3) MFG_TRN_AssortSecond_Receive_Save - Done
+				4) MFG_TRN_AssortShading_Receive_Save - Done
+				5) MFG_TRN_Rough_Cut_SAVE - Done
+				6) MFG_TRN_Stock_SAVE - Done
+				7) MFG_TRN_RoughCut_MixSplit_SAVE - Done
+				8) MFG_TRN_Department_Transfer_Save - Done
+				9) MFG_TRN_Factory_Mix_Save - Done
+				10) MFG_TRN_Factory_Split_Save - Done
+				11) MFG_TRN_Janged_Issue_Save - Done
+				12) MFG_TRN_Janged_Issue_Assorting_Save - Done
+				13) MFG_TRN_Janged_Return_Save - Done
+				14) MFG_TRN_Kapan_SAVE - Done
+				15) MFG_TRN_Rough_MixSplit_SAVE - Done
+				16) MFG_TRN_Kapan_Mix_Save - Done
+				17) MFG_TRN_LotSplit_Receive_Save - Done
+				18) MFG_TRN_Stock_Mix_Save - Done
+				19) MFG_TRN_Lot_Mix_Split_Save - Done
+				20) MFG_TRN_Lotting_Mix_Save - Done
+				21) MFG_TRN_Lotting_Mix_Split_Save - Done
+				22) MFG_TRN_Lotting_Many_To_One_Save - Done
+				23) MFG_TRN_MultiEmployee_Return_Save - Done
+				24) MFG_TRN_Process_Receive_Save - Done
+				25) MFG_TRN_Process_Issue_Save - Done
+				26) MFG_TRN_Process_Factory_Issue_Save - Done
+				27) MFG_TRN_Janged_Receive_Save - Done
+				28) MFG_TRN_Process_Receive_Split_Save - Done
+				29) MFG_TRN_Process_WeightLoss_Save - New Sp Replace Change full SP - Done
+				30) MFG_TRN_Sawable_Receive_Save - Done
+				31) MFG_TRN_Kapan_SAVE_New - Done
+				32) MFG_TRN_Rough_Cut_SAVE_New - Done
+
+---------------------------------------------------------------
+Date : 10-Jan-21 Praful
+
+SP Name :	lotting_department_id    --- Table MFg_TRN_STOCK ,MFg_TRN_process_Recieve - Done
+				
+				1) MFG_IssRet_GetPendingStock -- breakage carat  -- Done
+				2) MFG_TRN_MultiEmployee_Return_Save -- breakage carat --- Done
+				3) MFG_TRN_Sarin_Process_Outstanding -- breakage carat -- Done
+				4) MFG_TRN_Lotting_Mix_Split_Save -- Done
+				5) MFG_TRN_Lot_Mix_Split_Save -- Done
+				6) MFG_TRN_Lotting_Many_To_One_Save -- Done
+				7) MFG_TRN_Live_Stock -- Done
+				8) MFG_TRN_Janged_GetDetailsData - Done
+
+---------------------------------------------------------------
+Date : 19-Jan-21 Praful
+
+Table   : 1) MST_Employee - Field Name Added - Done
+				leave_date Date,
+				dob Date,
+				age int
+		  2) MFG_TRN_Process_Receive - Field Name Added - Done
+				boiling_lot_id bigint
+
+SP Name : 1) RPT_Employee_GetData - Done
+		  2) MST_Employee_GetData - Done
+		  3) MST_Employee_Save - Done
+		  4) MFG_TRN_MultiEmployee_Return_Save - Done
+
+---------------------------------------------------------------
+Date : 20-Jan-21 Praful
+
+Table   : 1) MST_TRN_Stock - Field Name Added - Done
+		  2) MFG_TRN_Process_Issue - Field Name Added - Done
+		  3) MFG_TRN_Process_Receive - Field Name Added - Done
+				k_carat decimal(18,3)
+
+SP Name : 1) MFG_TRN_Kapan_Mix_Save - Done
+		  2) MFG_TRN_LiveStock_GetData - Done
+		  3) MFG_TRN_Lot_Mix_Split_Update - Done
+		  4) MFG_TRN_Split_Lotting_Update - Done
+		  5) MFG_TRN_Lot_Mix_Split_Save - Done
+		  6) MFG_TRN_Lotting_Mix_Split_Save - Done
+		  7) MFG_TRN_Lotting_Many_To_One_Save - Done
+		  8) MFG_TRN_Process_Lock - Done
+		  9) MFG_TRN_Main_Lotting_Update - Done
+
+---------------------------------------------------------------
+Date : 22-Jan-21 Praful
+
+Table   : 1) MFG_TRN_Process_Receive - Done
+				temp_quality_name varchar(200)
+
+SP Name : 1) MFG_TRN_AssortFirst_Receive_Save - Done
+		  2) MFG_TRN_AssortSecond_Receive_Save - Done
+
+
+---------------------------------------------------------------
+Date : 03-Feb-21 Praful
+
+Table   : 1) MFG_TRN_IssRec_Janged_Assortment - Done
+				minus2_amt int
+				plus2_amt int
+
+SP Name : 1) MFG_TRN_Janged_Issue_Assorting_Save - Done
+		  2) MFG_IssRet_GetAssortmentStock  - Done
+		  3) MFG_TRN_AssortJanged_Lot_Delete - Done
+		  4) MFG_TRN_Assort_Lot_Delete - Done
+		  
+---------------------------------------------------------------
+Date : 04-Feb-21 Praful
+		  
+SP Name : 1) MFG_TRN_Process_Receive - Field_name   - Done
+				temp_sieve_name varchar(100)   - Done
+		  2) MFG_TRN_AssortFirst_Receive_Save   - Done
+		  3) MFG_TRN_Assort_Lot_Delete   - Done
+		  4) RPT_MFG_TRN_Assortment_Semi_1 - Done
+		  5) MFG_TRN_Assort_Second_GetData - Done
+		  6) MFG_TRN_Assort_Lot_Delete - Done
+		  7) MFG_TRN_AssortSecond_Receive_Save - Done
+		  8) RPT_MFG_TRN_Assortment_Semi_2 - Done
+		  9) RPT_MFG_TRN_Assortment_Semi_1_Sub - Done
+		  10) MST_config_Emp_GetData - Done
+		  11) MFG_TRN_Rough_Stock_GetData - Done
+
+
+---------------------------------------------------------------
+Date : 19-Feb-21 Praful
+		  
+SP Name : 1) RPT_MFG_TRN_Assortment_Final - Done
+		  2) MFG_TRN_AssortFinal_Lotting_Save - Done
+		  3) MFG_IssRet_GetAssortmentStock - Done
+		  4) MFG_TRN_Assort_Final_GetData - Done
+
+---------------------------------------------------------------
+Date : 24-Feb-21 Praful
+
+Form Name :	1) FrmMFGAssortmentReport - Done
+			2) FrmMFGJangedReport - Done
+			3) FrmMFGProcessReport - Done
+
+---------------------------------------------------------------
+Date : 26-Feb-21 Praful
+
+SP Name : 1) RPT_MFG_TRN_Assortment_Final_ALL - Done
+		  2) RPT_MFG_TRN_Assortment_Semi_2_ALL - Done
+		  3) RPT_MFG_TRN_Assortment_Semi_1_Sub_ALL - Done
+		  4) RPT_MFG_TRN_Assortment_Semi_1_ALL - Done
+		  5) MFG_MST_Temp_Quality_GetData - Done
+
+		  6) MFG_TRN_Assort_Second_GetData - Done
+		  7) RPT_MFG_TRN_Assortment_Semi_2 - Done
+		  8) MFG_IssRet_GetAssortmentStock - Done
+		  9) MFG_TRN_Assort_Lot_Delete - Done
+		  10) RPT_MFG_TRN_Assortment_Semi_1 - Done
+		  11) RPT_MFG_TRN_Assortment_Semi_1_Sub - Done
+		  12) MFG_TRN_Assort_First_GetData - Done
+		  13) MFG_TRN_Assort_Final_GetData - Done
+
+---------------------------------------------------------------
+Date : 05-Mar-21 Praful
+
+SP Name : 1) MFG_TRN_Assort_First_GetData - Done
+		  2) MFG_IssRet_GetAssortmentStock - Done
+		  3) RPT_MFG_TRN_Assortment_Semi_1 - Done
+
+---------------------------------------------------------------
+Date : 09-Mar-21 Praful
+
+SP Name : 1) MST_Purity_GetData - Done
+		  2) MFG_TRN_Assort_Second_GetData - Done
+		  3) MFG_IssRet_GetAssortmentStock - Done
+				flag = 2
+		  4) RPT_MFG_TRN_Assortment_Semi_2 - Done
+		  5) RPT_MFG_TRN_Assortment_Semi_1_Sub - Done
+
+
+---------------------------------------------------------------
+Date : 12-Mar-21 Praful
+
+SP Name : 1) RPT_MFG_TRN_Assortment_Semi_1_Sub - Done 
+		  2) MFG_TRN_Assort_Janged_GetData - Done
+		  3) MFG_IssRet_GetAssortmentStock - Done
+		  4) MFG_TRN_AssortJanged_Lot_Delete - Done
+		  5) MFG_IssRet_GetAssortmentStock - Done
+		  6) MFG_TRN_Assort_Janged_GetData - Done
+		  7) MFG_TRN_Janged_Issue_Assorting_Save - Done
+		  8) MFG_TRN_Assort_Final_GetData - Done
+		  9) RPT_MFG_TRN_Assortment_Final - Done
+		  10) MFG_IssRet_GetSoyebleChipPendingStock  - Done
+
+---------------------------------------------------------------
+Date : 17-Mar-21 Praful
+
+SP Name : 1) RPT_MFG_TRN_Assortment_Semi_1_ALL - Done
+		  2) RPT_MFG_TRN_Assortment_Semi_2_ALL - Done
+
+---------------------------------------------------------------
+Date : 19-Mar-21 Praful
+
+SP Name : 1) MFG_TRN_AssortFinal_Lotting_Save - Done
+
+---------------------------------------------------------------
+Date : 30-Mar-21 Praful
+
+SP Name : 1) MFG_IssRet_GetAssortmentStock - Done
+		  2) MFG_TRN_RoughRateIssue_GetData - Done
+		  3) RPT_MFG_TRN_Assortment_Final_Mumbai - Done
+		  4) MFG_TRN_AssortFinal_Lotting_Save - Done
+		  5) MFG_TRN_Assort_Lot_Delete - Done
+		  6) MFG_TRN_Costing_Manual_Save - Done
+		  7) MFG_Costing_Manual_GetData - Done
+		  8) RPT_MFG_TRN_Assortment_Semi_1_ALL - Done
+		  9) MFG_MST_Temp_Quality_GetData - Done
+		  10) RPT_MFG_TRN_Assortment_Semi_1_Sub_ALL - Done
+		  11) RPT_MFG_TRN_Assortment_Semi_2_ALL - Done
+
+---------------------------------------------------------------
+Date : 31-Mar-21 Praful
+
+SP Name : 1) RPT_MFG_TRN_Assortment_Semi_1_ALL - Done
+		  2) MFG_MST_Temp_Quality_GetData - Done
+		  3) RPT_MFG_TRN_Assortment_Semi_1_Sub_ALL - Done
+		  4) RPT_MFG_TRN_Assortment_Semi_2_ALL - Done
+		  5) RPT_MFG_TRN_Assortment_Final - Done
+		  6) RPT_MFG_TRN_Assortment_Final_Mumbai - Done
+		  7) RPT_MFG_TRN_Assortment_Final_Print_2 - Done
+		  8) RPT_MFG_TRN_Assortment_Final_Print_2_ALL - Done
+		  9) RPT_MFG_TRN_Assortment_Final_Mumbai_All - Done
+		  10) MFG_TRN_Rough_MixSplit_SAVE - Done
+		  11) MFG_TRN_Assort_Lot_Delete - Done
+		  12) MFG_TRN_Janged_Issue_Assorting_Save - Done
+
+---------------------------------------------------------------
+Date : 02-Apr-21 Praful
+
+SP Name : 1) MFG_TRN_RoughRej_Master_Save - Done
+		  2) MFG_TRN_RoughRej_Detail_Save - Done
+		  3) MFG_TRN_RoughRej_GetData - Done
+		  4) MFG_TRN_RoughRej_GetDetailData - Done
+		  5) MFG_TRN_RoughRej_Janged_Delete - Done
+
+---------------------------------------------------------------
+Date : 05-Apr-21 Praful
+
+Table - MFG_TRN_Rejection_Rate_Entry - Done
+
+SP Name : 1) MFG_TRN_Rejection_Rate_GetData - Done
+		  2) MFG_TRN_Rejection_Rate_Entry_Save - Done
+		  3) MFG_TRN_Rejection_Entry_GetData - Done
+		  4) MFG_TRN_Rejection_Rate_Detail_GetData - Done
+
+---------------------------------------------------------------
+Date : 08-Apr-21 Praful
+
+Table - MFG_TRN_Rej_Internal_Transfer - Done
+
+SP Name : 1) MFG_TRN_Rejection_Purity_Stock_GetData - Done
+		  2) MFG_TRN_Rej_Internal_Trf_GetData - Done
+		  3) MFG_TRN_Rejection_Internal_Transfer_Save - Done
+
+---------------------------------------------------------------
+Date : 09-Apr-21 Praful
+
+Table - 1) MFG_TRN_Rejection_Sale - Done
+		2) MFG_TRN_Rejection_Sale_Details - Done
+
+SP Name : 1) MFG_TRN_Rejection_Sale_Master_Save - Done
+		  2) MFG_TRN_Rejection_Sale_Detail_Save - Done
+		  3) MFG_TRN_RejectionSale_GetData - Done
+		  4) MFG_TRN_RejectionSale_GetDetailData - Done
+		  5) MFG_TRN_Rejection_Sale_Delete - Done
+		  6) MFG_TRN_Rejection_Sale_Update - Done
+
+---------------------------------------------------------------
+Date : 10-Apr-21 Praful
+
+Table - 1) MFG_TRN_Purchase_Detail - Field Added - article_id - Done
+
+SP Name : 1) MFG_TRN_Purchase_Detail_SAVE - Done
+		  2) MFG_TRN_Purchase_GetData - Done
+		  3) MFG_TRN_Purchase_GetDetailsData - Done
+		  4) MFG_TRN_Rough_Stock_GetData - Done
+
+---------------------------------------------------------------
+Date : 15-Apr-21 Praful
+
+SP Name : 1) MFG_TRN_Rejection_Transfer_SearchData - Done
+		  2) MFG_TRN_RoughRate_GetData - Done
+
+---------------------------------------------------------------
+Date : 20-Apr-21 Praful
+
+SP Name : 1) MFG_TRN_Rejection_Transfer_GetDetailData - Done
+		  2) MFG_TRN_RejTransfer_GetData - Done
+		  3) MFG_TRN_Kapan_Date_Update - Done
+		  4) MFG_TRN_Process_Receive_Update - Done
+		  5) MFG_TRN_RoughRate_GetData - Done
+
+---------------------------------------------------------------
+Date : 22-Apr-21 Praful
+
+SP Name : 1) MFG_TRN_RoughRate_GetData - Done
+
+---------------------------------------------------------------
+Date : 01-May-21 Praful
+
+SP Name : 1) RPT_MFG_TRN_Assortment_Final_ALL - Done
+		  2) RPT_MFG_TRN_Assortment_Final_Mumbai_All - Done
+		  3) RPT_MFG_TRN_Assortment_Final_Print_2_ALL - Done
+		  4) RPT_MFG_TRN_Assortment_Semi_2_ALL - Done
+		  5) RPT_MFG_TRN_Assortment_Semi_1_ALL - Done
+		  6) MFG_TRN_RoughCut_Update - Done
+
+---------------------------------------------------------------
+Date : 07-May-21 Praful
+
+Table - 1) GENERATE_NO - Field Added - MFG_REJ_Sale_Srno Data Add - Done
+
+SP Name : 1) MFG_TRN_RejectionSale_GetData - Done
+		  2) MFG_TRN_Rejection_Sale_Master_Save - Done
+		  3) MFG_TRN_RejectionSale_GetDetailData - Done
+
+---------------------------------------------------------------
+Date : 10-May-21 Praful
+
+Table -	  1) MFG_TRN_Rough_Payment - Field Added - sr_no bigint Add - Done
+
+SP Name : 1) MFG_Rejection_Sale_Payment_GetData - Done
+		  2) MFG_Rejection_Sale_Payment_Save - Done
+		  3) MFG_Rejection_Sale_Payment_List_GetData - Done
+
+---------------------------------------------------------------
+Date : 14-May-21 Praful
+
+Table -	  1) MFG_MST_Party_Group - Done
+		  2) MFG_MST_Unit - Done
+		  3) MFG_MST_ItemType - Done
+		  4) MFG_MST_Item_Master - Done
+		  5) MFG_TRN_Rejection_Sale - Field Added - currency_type,exchange_rate,sale_type - Done
+
+SP Name : 1) MFG_MST_Party_Group_Save - Done
+		  2) MFG_MST_Party_Group_GetData - Done
+		  3) MFG_MST_Unit_Save - Done
+		  4) MFG_MST_Unit_GetData - Done
+		  5) MFG_MST_Item_Type_GetData - Done
+		  6) MFG_MST_Item_Type_Save - Done
+		  7) MFG_MST_Item_Master_GetData - Done
+		  8) MFG_MST_Item_Master_Save - Done
+		  9) MFG_TRN_Rejection_Sale_Master_Save - Done
+
+---------------------------------------------------------------
+Date : 26-May-21 Praful
+
+Form name : 1) FrmMFGLottingRateUpdate - New Form - Done
+
+SP Name : 1) MFG_TRN_Final_Rate_GetData - Done
+		  2) MFG_TRN_Final_Rate_SarinData - Done
+		  3) MFG_TRN_Update_Lotting_Rate - Done
+
+---------------------------------------------------------------
+Date : 27-May-21 Praful
+
+SP Name : 1) MFG_TRN_RoughCut_MixSplit_SAVE - Done
+		  2) MFG_TRN_Rough_MixSplit_SAVE - Done
+		  3) MFG_TRN_RejTransfer_GetData - Done
+		  4) MFG_TRN_Rejection_Transfer_Save - Done
+		  5) RPT_MFG_Kapan_Mix_Report - Done
+
+---------------------------------------------------------------
+Date : 03-Jun-21 Praful
+		  
+SP Name : 1)MFG_TRN_Kapan_GetLottingData - Done
+		  2) MFG_TRN_RoughPurchase_Stock_SAVE - Done
+		  3) MFG_TRN_RejTransfer_GetData - Done
+		  4) MFG_TRN_Kapan_Delete - Done
+		  5) MST_Avak_Javak_Cash_Transfer_Save - Done
+		  6) MST_Avak_Javak_CashTransfer_GetData - Done
+
+---------------------------------------------------------------
+Date : 07-Jun-21 Praful
+
+Table : 1) TRN_Rough_Purchase - Table - Done
+			is_inward - Bit - Done
+	    2) TRN_Rough_Sale
+			exchange_rate,inr_amount,closing_amount - Done
+		
+		Rough Sale
+
+		1) Sale Date beside Delivery Date - Done
+		2) M Pending and M Working visible False - Done
+		3) Amount Beside Exchange Rate - Done
+		4) INR Amount - Disable Exchange Rate * Amount - Done
+		5) Closing Amount - Purchase amount - Sale - Done
+		6) Amount INR - Done
+		7) Is_inward Tick Then WT Column Green Color - Done
+		8) Exchange Rate Editable True  - Done
+		9) Ldger Book Report
+				- Cash Balance Type Add in Report
+				- order by Ledger Name Remove - SP Change
+				- Cash Type ID - SP Change
+SP Name :
+		1) TRN_Save_Rough_Purchase - Done
+		2) TRN_Save_Rough_Purchase_GetData - Done
+		3) MFG_TRN_Purchase_GetDetailsRough - Done	
+	    4) TRN_RoughSaleStatus_GetData - Done
+	    5) TRN_RoughSale_Status_Save - Done
+
+---------------------------------------------------------------
+Date : 10-Jun-21 Praful
+
+SP Name : 1) MFG_TRN_Purchase_GetDetailsRough - Done
+		  2) TRN_Save_Rough_Purchase - Done
+		  3) TRN_Save_Rough_Purchase_GetData - Done
+		  4) MFG_TRN_RoughMix_Update_Getdata - Done
+		  5) MFG_TRN_Kapan_Date_Update - Done
+		  6) MFG_TRN_Assort_Final_GetData - Done
+		  7) MFG_TRN_Purchase_GetDetailsRough - Done
+
+---------------------------------------------------------------
+Date : 10-Jun-21 Praful
+
+SP Name : 1) MFG_TRN_Assort_FinalOK_GetData - Done
+		  2) MFG_TRN_AssortFinal_OK_Save - Done
+		  3) TRN_Save_Rough_Purchase_GetData - Done
+		  4) RPT_MFG_TRN_Assortment_Final_OK_ALL - Done
